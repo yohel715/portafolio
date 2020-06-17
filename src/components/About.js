@@ -25,6 +25,7 @@ const About = () => {
         <div class="column about_column">
           <div class="about_info">
             <p class="font-weight-bold text-center m-2">
+              Hola
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               pharetra, magna eget ultricies mollis, neque leo vestibulum est,
               sit amet suscipit ipsum leo nec quam. Proin iaculis gravida neque,
