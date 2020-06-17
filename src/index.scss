@@ -1,0 +1,282 @@
+$body-bg: #0b3954;
+$body-color: white; //color del texto general
+$shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.349);
+// #BFD7EA;
+
+$image-background: url("./img/contact_wallpaper.jpg");
+$image-gradient-bg: linear-gradient(
+  to right,
+  rgba(168, 192, 255, 0.5),
+  rgba(11, 57, 84, 0.8)
+);
+$image-background-blur: blur(10px);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+* {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0%;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // overflow-x:scroll;
+  //overflow-y:hidden;
+}
+
+.landing,
+.about,
+.skills,
+.projects,
+.contact {
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  box-shadow: $shadow;
+  z-index: 1000;
+  letter-spacing: 3px;
+
+  .nav-item,
+  .nav-link {
+    color: #0b3954;
+  }
+}
+
+//Animación del FadeIn
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.landing_content {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.landing_content {
+  padding-top: 15vh;
+  height: 50vh;
+  color: whitesmoke;
+
+  .icon_landing {
+    color: whitesmoke;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+    @-webkit-keyframes move {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+    @keyframes move {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+    &:active {
+      color: #2e9cf7;
+    }
+  }
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+  padding-top: 10vh;
+}
+.row {
+  margin-right: 15px !important;
+}
+
+.about_column {
+  padding: 3rem;
+  float: left;
+  width: 50%; //RESPSIVE 50 - 100
+  height: 100vh;
+}
+
+.about_column__left {
+  background: whitesmoke;
+  color: #0b3954;
+  padding-top: 10%;
+}
+
+.about_title {
+  line-height: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+.about_info,
+.skills_info {
+  height: 80%;
+  overflow: auto;
+
+  /* width */
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #2e9cf7;
+  }
+}
+
+::-webkit-scrollbar {
+  /* make scrollbar transparent */
+  width: 0px;
+  background: transparent;
+}
+
+@keyframes flickerAnimation {
+  /* flame pulses */
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.abot_logo {
+  animation: flickerAnimation 3s infinite;
+}
+
+//CONTACT
+.contact {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  // overflow: hidden;
+  background: $image-gradient-bg, $image-background;
+
+  &_content {
+    padding-top: 10vh;
+  }
+  &_title {
+    font-size: 68px;
+  }
+  &_headder {
+    margin: 30px;
+  }
+  &_headder,
+  &_info,
+  &_email {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 1.5em;
+  }
+  &_list {
+    list-style-type: none;
+  }
+  &_subtitle {
+    letter-spacing: 4px;
+    opacity: 70%;
+    font-size: 18px;
+  }
+  .btn_contact {
+    background: #0b3954;
+    &:hover {
+      background: white;
+      color: #0b3954;
+      font-weight: bold;
+      box-shadow: 0px 0px 20px 1px rgba(11, 57, 84, 0.61);
+    }
+  }
+
+  .iconify {
+    margin-bottom: 2.3rem;
+    color: whitesmoke;
+  }
+
+  .contact_media_name {
+    color: whitesmoke;
+    margin: 0rem 0rem 1.8rem 0rem;
+    display: inline-block;
+  }
+}
+
+.column {
+  padding: 3rem;
+  float: left;
+  width: 50%; //RESPSIVE 50 - 100
+}
+.skills_content {
+  padding-top: 1vh;
+}
+.skills_column {
+  padding: 3rem;
+  float: left;
+  // width: 50%; //RESPSIVE 50 - 100
+  height: 100vh;
+}
+
+.skills_column_left {
+  
+  padding-left: 8rem;
+  width: 36%;
+}
+.skills_column_right {
+  padding-top: 5rem;
+  width: 64%;
+}
+
+.skills_info {
+  height: 35rem;
+  overflow: auto;
+  text-overflow: auto;
+}
+
+.projects_content {
+  padding-top: 5vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel {
+  width: 100%;
+  .slide {
+    height: 50%;
+  }
+  &-indicators {
+    opacity: 0%;
+  }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  width: 90vh;
+  color: $body-bg;
+  margin-left: 50vh;
+  box-shadow: $shadow;
+}
+
+.card-img{
+  object-fit: cover;
+  object-position: 20% 10px; 
+}
