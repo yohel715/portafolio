@@ -100,7 +100,7 @@ const About = () => {
               viverra.
             </p>
           </div>
-          <div className="abot_logo">
+          <div className="about_logo">
             <img
               src={logo}
               height="32"

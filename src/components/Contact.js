@@ -3,13 +3,12 @@ import React from "react";
 const Contanct = () => {
   return (
     <div className="contact_content">
-        <p className="contact_subtitle text-center m-1">Contáctame</p>
+      <p className="contact_subtitle text-center m-1">Contáctame</p>
       <div className="contact_headder">
         <h1 class="contact_title text-center m-2">
           ¡Creemos un nuevo proyecto!
         </h1>
       </div>
-
       <div className="contact_email">
         <a href="mailto:yohel715@gmail.com" class="btn btn_contact mr-3">
           Escríbeme
@@ -101,7 +100,7 @@ const Contanct = () => {
               >
                 <span
                   class="iconify"
-                  data-icon="dashicons:email-alt"
+                  data-icon="clarity:email-solid"
                   data-inline="false"
                   data-width="38"
                   data-height="38"
@@ -167,8 +166,8 @@ const Contanct = () => {
           </div>
         </div>
       </div>
-      <p className="text-center m-1">Alajuela, Costa Rica</p>
-      <p className="text-center m-1">2020</p>
+      <p className="contact_footer text-center">Alajuela, Costa Rica <br/> 2020</p>
+
     </div>
   );
 };

@@ -1,53 +1,17 @@
 $body-bg: #0b3954;
-$body-color: white; //color del texto general
+$body-color: white;
 $shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.349);
-// #BFD7EA;
-
 $image-background: url("./img/contact_wallpaper.jpg");
+$image-background-blur: blur(10px);
 $image-gradient-bg: linear-gradient(
   to right,
   rgba(168, 192, 255, 0.5),
   rgba(11, 57, 84, 0.8)
 );
-$image-background-blur: blur(10px);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-* {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0;
-  padding: 0%;
-  font-family: "Quicksand", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  // overflow-x:scroll;
-  //overflow-y:hidden;
-}
 
-.landing,
-.about,
-.skills,
-.projects,
-.contact {
-  height: 100vh;
-}
-
-.navbar {
-  position: fixed;
-  top: 0%;
-  width: 100%;
-  box-shadow: $shadow;
-  z-index: 1000;
-  letter-spacing: 3px;
-
-  .nav-item,
-  .nav-link {
-    color: #0b3954;
-  }
-}
-
-//Animación del FadeIn
+//Animación del FadeIn para el Landing
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -57,17 +21,60 @@ body {
   }
 }
 
-.landing_content {
-  animation: fadeInAnimation ease 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+//Animación del Flame Pulses para el logo en about
+@keyframes flickerAnimation {
+  /* flame pulses */
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.landing_content {
-  padding-top: 15vh;
-  height: 50vh;
-  color: whitesmoke;
+* {
+  scroll-behavior: smooth;
+}
 
+body {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  //overflow-y: hidden;
+}
+
+.landing,
+.about,
+.skills,
+.projects,
+.contact{
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  box-shadow: $shadow;
+  z-index: 1000;
+  letter-spacing: 3px;
+}
+
+//LANDING
+.landing {
+  &_content {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 50vh;
+    color: whitesmoke;
+  }
   .icon_landing {
     color: whitesmoke;
     -webkit-animation: move 1s infinite alternate;
@@ -94,34 +101,32 @@ body {
   }
 }
 
-.about,
-.skills,
-.projects,
-.contact {
-  padding-top: 10vh;
-}
 .row {
   margin-right: 15px !important;
 }
 
-.about_column {
-  padding: 3rem;
-  float: left;
-  width: 50%; //RESPSIVE 50 - 100
-  height: 100vh;
+//ABOUT
+.about {
+  &_title {
+    line-height: 4rem;
+    letter-spacing: 0.5rem;
+  }
+  &_column {
+    padding: 3rem;
+    float: left;
+    width: 50%; //RESPSIVE 50 - 100
+    height: 100vh;
+  }
+  &_column__left {
+    background: whitesmoke;
+    color: #0b3954;
+  }
+  &_logo {
+    animation: flickerAnimation 3s infinite;
+  }
 }
 
-.about_column__left {
-  background: whitesmoke;
-  color: #0b3954;
-  padding-top: 10%;
-}
-
-.about_title {
-  line-height: 4rem;
-  letter-spacing: 0.5rem;
-}
-
+//Scroll bars
 .about_info,
 .skills_info {
   height: 80%;
@@ -150,38 +155,81 @@ body {
   background: transparent;
 }
 
-@keyframes flickerAnimation {
-  /* flame pulses */
-  0% {
-    opacity: 1;
+.column {
+  padding: 3rem;
+  float: left;
+  width: 50%; //RESPSIVE 50 - 100
+}
+
+//SKILLS
+.skills{
+  &_content {
+    padding-top: 1vh;
   }
-  50% {
-    opacity: 0;
+  &_list {
+    list-style-type: none;
   }
-  100% {
-    opacity: 1;
+
+  &_column {
+    padding: 2rem;
+    // width: 50%; //RESPSIVE 50 - 100
+    //height: 70vh;
+  }
+
+  &_column_left {
+    width: 30%;
+  }
+  &_column_right {
+    width: 70%;
+  }
+
+  &_info {
+    height: 35rem;
+    overflow: auto;
+    text-overflow: auto;
   }
 }
-.abot_logo {
-  animation: flickerAnimation 3s infinite;
+
+.projects_content {
+  padding-top: 5vh;
+}
+
+.carousel {
+  width: 100%;
+  .slide {
+    height: 50%;
+  }
+  &-indicators {
+    opacity: 0%;
+  }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  width: 90vh;
+  color: $body-bg;
+  margin-left: 50vh;
+  box-shadow: $shadow;
+}
+
+.card-img {
+  object-fit: cover;
+  object-position: 20% 10px;
 }
 
 //CONTACT
 .contact {
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  // overflow: hidden;
   background: $image-gradient-bg, $image-background;
 
   &_content {
-    padding-top: 10vh;
+    padding-top: 3vh;
   }
   &_title {
     font-size: 68px;
   }
   &_headder {
-    margin: 30px;
+    margin-bottom: 30px;
   }
   &_headder,
   &_info,
@@ -219,64 +267,4 @@ body {
     margin: 0rem 0rem 1.8rem 0rem;
     display: inline-block;
   }
-}
-
-.column {
-  padding: 3rem;
-  float: left;
-  width: 50%; //RESPSIVE 50 - 100
-}
-.skills_content {
-  padding-top: 1vh;
-}
-.skills_column {
-  padding: 3rem;
-  float: left;
-  // width: 50%; //RESPSIVE 50 - 100
-  height: 100vh;
-}
-
-.skills_column_left {
-  
-  padding-left: 8rem;
-  width: 36%;
-}
-.skills_column_right {
-  padding-top: 5rem;
-  width: 64%;
-}
-
-.skills_info {
-  height: 35rem;
-  overflow: auto;
-  text-overflow: auto;
-}
-
-.projects_content {
-  padding-top: 5vh;
-  width: 100vw;
-  height: 100vh;
-}
-
-.carousel {
-  width: 100%;
-  .slide {
-    height: 50%;
-  }
-  &-indicators {
-    opacity: 0%;
-  }
-}
-.card {
-  display: flex;
-  justify-content: center;
-  width: 90vh;
-  color: $body-bg;
-  margin-left: 50vh;
-  box-shadow: $shadow;
-}
-
-.card-img{
-  object-fit: cover;
-  object-position: 20% 10px; 
 }

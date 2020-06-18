@@ -4,9 +4,9 @@ const Skills = () => {
   return (
     <div className="skills_content">
       <div className="row">
-        <div className="column skills_column skills_column_left">
+        <div className="skills_column skills_column_left">
           <div class="skills_info_right">
-            <ul className="contact_list">
+            <ul className="skills_list">
               <h1 class="text-center mb-3 text-uppercase">Habilidades</h1>
               {/*  Dessarrollo Web */}
               <li onClick={Display5}>
@@ -88,7 +88,7 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <div className="column skills_column skills_column_right">
+        <div className="skills_column skills_column_right">
           <div class="skills_info">
             {/* Identidad Gráfica */}
             <div id="parrafo7" class="my-2" style={{ display: "none" }}>
