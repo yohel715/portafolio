@@ -52,7 +52,7 @@ body {
 .about,
 .skills,
 .projects,
-.contact{
+.contact {
   height: 100vh;
   padding-top: 10vh;
 }
@@ -73,7 +73,11 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     height: 50vh;
-    color: whitesmoke;
+  }
+  &_title {
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
   }
   .icon_landing {
     color: whitesmoke;
@@ -162,7 +166,7 @@ body {
 }
 
 //SKILLS
-.skills{
+.skills {
   &_content {
     padding-top: 1vh;
   }
