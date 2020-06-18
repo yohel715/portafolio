@@ -167,6 +167,7 @@ const Contanct = () => {
         </div>
       </div>
       <p className="contact_footer text-center">
+        Alajuela, Costa Rica <br /> 2020
         <a className="contact_icon" href="#landing">
           <span
             class="iconify"
@@ -176,7 +177,6 @@ const Contanct = () => {
             data-height="32"
           ></span>
         </a>
-        Alajuela, Costa Rica <br /> 2020
       </p>
     </div>
   );
