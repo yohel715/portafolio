@@ -256,7 +256,7 @@ const Skills = () => {
                 SASS
               </p>
               <p>
-                <span class="iconify" data-icon="cib:sass-alt" data-inline="false" data-width="24" data-height="24"></span>
+                <span class="iconify" data-icon="cib:django" data-inline="false" data-width="24" data-height="24"></span>
                 Django
               </p>
             </div>
