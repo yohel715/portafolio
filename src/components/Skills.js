@@ -125,9 +125,9 @@ const Skills = () => {
             </div>
             {/* Manipulación de Audio y Video */}
             <div id="parrafo1" class="my-2" style={{ display: "none" }}>
-              <h3 className="font-weight-bold text-center">
+              <h2 className="font-weight-bold text-center">
                 Manipulación de Audio y Video
-              </h3>
+              </h2>
               <p class="descripcion mb-6">
                 Tengo altos conocimientos técnicos y prácticos en la utilización
                 de softwares como Adobe Premiere Pro, After Effetcs y Media
@@ -140,14 +140,30 @@ const Skills = () => {
                 Además de usar distintos softwares para conseguir la mejor
                 calidad en imágenes y videos para un tema específico.
               </p>
-              <p>
-                <span class="iconify" data-icon="cib:adobe-premiere" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe Premiere Pro CC2020
-              </p>
-              <p>
-                <span class="iconify" data-icon="cib:adobe-after-effects" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe After Effetcs CC2020
-              </p>
+              <div className="skills_contentIcon">
+                <div className="skills_icon">
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:adobe-premiere"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe Premiere Pro CC2020
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:adobe-after-effects"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe After Effetcs CC2020
+                  </p>
+                </div>
+              </div>
             </div>
             {/* Creacción de Ilustraciones Vectoriales */}
             <div id="parrafo2" class="my-2" style={{ display: "none" }}>
@@ -161,18 +177,40 @@ const Skills = () => {
                 motion gráphics, así como la construcciones de material visual
                 tipo SVG para desarrollo web y prototipado.
               </p>
-              <p>
-                <span class="iconify" data-icon="cib:adobe-illustrator" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe Illustrator CC2020
-              </p>
-              <p>
-                <span class="iconify" data-icon="cib:adobe-after-effects" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe After Effetcs CC2020
-              </p>
-              <p>
-              <span class="iconify" data-icon="simple-icons:adobeindesign" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe InDesing CC2020
-              </p>
+              <div className="skills_contentIcon">
+                <div className="skills_icon">
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:adobe-illustrator"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe Illustrator CC2020
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:adobe-after-effects"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe After Effetcs CC2020
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:adobeindesign"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe InDesing CC2020
+                  </p>
+                </div>
+              </div>
             </div>
             {/* Manipulación de Imagenes */}
             <div id="parrafo3" class="my-2" style={{ display: "none" }}>
@@ -188,14 +226,30 @@ const Skills = () => {
                 paletas de colores, tipografias y visualizaciones para el
                 proceso previo a la elaboración del Frontend.
               </p>
-              <p>
-                <span class="iconify" data-icon="simple-icons:adobephotoshop" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe Photoshop CC2020
-              </p>
-              <p>
-                <span class="iconify" data-icon="simple-icons:adobelightroomcc" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe Lightroom Classic CC2020
-              </p>
+              <div className="skills_contentIcon">
+                <div className="skills_icon">
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:adobephotoshop"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe Photoshop CC2020
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:adobelightroomcc"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe Lightroom Classic CC2020
+                  </p>
+                </div>
+              </div>
             </div>
             {/* Protitopado Web */}
             <div id="parrafo4" class="my-2" style={{ display: "none" }}>
@@ -209,14 +263,30 @@ const Skills = () => {
                 <br /> Además de la teoría de composicion, diagramación para
                 adquirir la mayor y mejor experiencia de usuario posible.
               </p>
-              <p>
-                <span class="iconify" data-icon="cib:adobe-xd" data-inline="false" data-width="24" data-height="24"></span>
-                Adobe XD
-              </p>
-              <p>
-                <span class="iconify" data-icon="gg:figma" data-inline="false" data-width="24" data-height="24"></span>
-                Figma
-              </p>
+              <div className="skills_contentIcon">
+                <div className="skills_icon">
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:adobe-xd"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Adobe XD
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="gg:figma"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Figma
+                  </p>
+                </div>
+              </div>
             </div>
             {/* Desarrollo Web */}
             <div id="parrafo5" class="my-2" style={{ display: "none" }}>
@@ -227,38 +297,88 @@ const Skills = () => {
                 frameworks como React, Laravel, Bootstrap, React-Boostrap, SASS
                 y DJango.
               </p>
-              <p>
-                <span class="iconify" data-icon="cib:javascript" data-inline="false" data-width="24" data-height="24"></span>
-                Java
-              </p>
-              <p>
-                <span class="iconify" data-icon="simple-icons:php" data-inline="false"></span>
-                PHP
-              </p>
-              <p>
-                <span class="iconify" data-icon="gg:c-plus-plus" data-inline="false" data-width="24" data-height="24"></span>
-                Dev-C++
-              </p>
-              <p>
-                <span class="iconify" data-icon="typcn:html5" data-inline="false" data-width="24" data-height="24"></span>
-                HTML5
-              </p>
-              <p>
-                <span class="iconify" data-icon="simple-icons:react" data-inline="false" data-width="24" data-height="24"></span>
-                React
-              </p>
-              <p>
-               <span class="iconify" data-icon="simple-icons:bootstrap" data-inline="false" data-width="24" data-height="24"></span>
-                Bootstrap
-              </p>
-              <p>
-                <span class="iconify" data-icon="cib:sass-alt" data-inline="false" data-width="24" data-height="24"></span>
-                SASS
-              </p>
-              <p>
-                <span class="iconify" data-icon="cib:django" data-inline="false" data-width="24" data-height="24"></span>
-                Django
-              </p>
+              <div className="skills_contentIcon">
+                <div className="skills_icon">
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:javascript"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Java
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:php"
+                      data-inline="false"
+                    ></span>
+                    PHP
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="gg:c-plus-plus"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Dev-C++
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="typcn:html5"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    HTML5
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:react"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    React
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="simple-icons:bootstrap"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Bootstrap
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:sass-alt"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    SASS
+                  </p>
+                  <p className="skills_iconIndividual">
+                    <span
+                      class="iconify"
+                      data-icon="cib:django"
+                      data-inline="false"
+                      data-width="24"
+                      data-height="24"
+                    ></span>
+                    Django
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

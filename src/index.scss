@@ -192,6 +192,20 @@ body {
     overflow: auto;
     text-overflow: auto;
   }
+  &_contentIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_icon{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &_iconIndividual{
+    padding: 0.3rem;
+  }
 }
 
 .projects_content {
@@ -264,6 +278,7 @@ body {
   .iconify {
     margin-bottom: 2.3rem;
     color: whitesmoke;
+    padding-right: 0.1rem;
   }
 
   .contact_media_name {
