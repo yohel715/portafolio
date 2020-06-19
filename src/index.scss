@@ -342,7 +342,7 @@ body {
     letter-spacing: 0.2rem;
   }
   &__logo{
-    height:375px;
+    height:370px;
   }
   .icon_landing {
     color: whitesmoke;
@@ -353,7 +353,7 @@ body {
         transform: translateY(0);
       }
       100% {
-        transform: translateY(-7px);
+        transform: translateY(-5px);
       }
     }
     @keyframes move {
@@ -361,7 +361,7 @@ body {
         transform: translateY(0);
       }
       100% {
-        transform: translateY(-7px);
+        transform: translateY(-5px);
       }
     }
     &:active {
