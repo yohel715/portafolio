@@ -26,13 +26,13 @@ const About = () => {
           <div class="about_info">
             <p class="font-weight-bold m-2">
               <h3 class="font-weight-bold text-center m-3">¿Quién soy?</h3>
-              Soy Yohel Ureña Mora, tengo 19 años, un estudiante de tercer año
+              Soy Yohel Ureña Mora, tengo 19 años, soy estudiante de tercer año
               en la carrera de Informática y Tecnología Multimedia en la
               Universidad de Costa Rica (UCR), Sede del Pácifico.
               <br />
               <br />
               Este es mi primer portafolio personal, es un proyecto en el curso
-              Interactivas II. <br />
+              Interactivas II, en el quinto bloque semestral.<br />
               Crecí y vivo en Orotina, Alajuela, pero por los estudios estoy
               viviendo temporalmente en Esparza, Puntarenas.
               <br />
