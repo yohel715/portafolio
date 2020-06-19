@@ -64,8 +64,23 @@ const About = () => {
               <h3 class="font-weight-bold text-center m-3">
                 Información Profesional
               </h3>
-              Tengo conocimiento desarrollados en dos áreas generales, la informática y el contenido multimedia,
-              en  cuanto al área de informatica
+              Tengo conocimiento desarrollados en dos áreas generales, la
+              informática y el contenido multimedia, en cuanto al área de
+              informatica me desarrollo con java, javascript y php, además de
+              ciertas herramientas como React, Bootstrap, Laravel y Django,
+              además de tener conocimientos básicos en redes y comunicación de
+              dispotivos (modelo osi y tcp/ip), además poseo conocimientos en
+              gestión de Base de Datos con SQL Benchmark y conocimientos básicos
+              en seguridad informática.
+              <br />
+              Mientras tanto en multimedia he utilizado programas de la suite de
+              Adobe como Photoshop, Illustrator, Lightroom, Premiere Pro,
+              InDesing, Adobe XD y After Effects.
+              <br />
+              <br />
+              Además me desempeño muy bien en el trabajo en equipo, tengo mucha
+              capacidad a adaptarte, aceptar nuevos retos y siempre estoy
+              dispuesto a aprender algo nuevo.
             </p>
           </div>
           <div className="about_logo">

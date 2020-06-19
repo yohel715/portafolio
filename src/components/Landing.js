@@ -1,5 +1,4 @@
 import React from "react";
-import Parallax from "react-rellax";
 
 import logo from "../img/ylogo_white.png";
 
@@ -9,7 +8,9 @@ const Landing = () => {
       <p className="landing-uptitle text-center m-4">
         Desarrollador Web y Diseñador de Interfaz de Usuario
       </p>
-      <h1 className="landing_title text-center text-uppercase">Yohel Ureña Mora</h1>
+      <h1 className="landing_title text-center text-uppercase">
+        Yohel Ureña Mora
+      </h1>
 
       <div className="container landing__logo">
         <img
@@ -20,20 +21,20 @@ const Landing = () => {
         />
       </div>
 
-      <Parallax speed={-1}>
-        <h6 className="landing-subtitle text-center m-3">¿Quieres saber más de mí?</h6>
-        <div className="icon d-flex justify-content-center">
-          <a className="icon_landing" href="#about">
-            <spam
-              className="iconify"
-              data-icon="bi:chevron-compact-down"
-              data-inline="false"
-              data-width="64"
-              data-height="64"
-            ></spam>
-          </a>
-        </div>
-      </Parallax>
+      <h6 className="landing-subtitle text-center m-3">
+        ¿Quieres saber más de mí?
+      </h6>
+      <div className="icon d-flex justify-content-center">
+        <a className="icon_landing" href="#about">
+          <spam
+            className="iconify"
+            data-icon="bi:chevron-compact-down"
+            data-inline="false"
+            data-width="64"
+            data-height="64"
+          ></spam>
+        </a>
+      </div>
     </div>
   );
 };

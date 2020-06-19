@@ -96,13 +96,14 @@ const Skills = () => {
                 Elaboración de Identidad Gráfica
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Poseo conocimientos en el proceso de creacción de una
+                identifiación gráfica, de la mano del cliente mediante
+                Breathings y entrevistas, para así conseguir generar uno o
+                varios elementos que funcionaran como identificadores de una
+                marca o empresa, esto para generar una línea gráfica de la mano
+                de un libro de marca para futuros diseñadores, incluyedo el
+                portafolio, documentos de oficinistas, mockups y demás cosas
+                dependiendo de casa caso.
               </p>
             </div>
             {/* Captura de imagenes digitales */}
@@ -111,13 +112,15 @@ const Skills = () => {
                 Captura de Imagenes Digitales
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Capacidad para utilizar diferentes equipos fotográficos para
+                producir contenido audiovisual, conocimiento profundo en la
+                manipulación de cámaras profesionales Nikon y Canon, además de
+                herramientas cómo distintos lentes, flashes, reflectores para
+                equipo de iluminación. Alto desempeño en la elaboración de
+                composiciones visuales con conocimientos técnicos para conseguir
+                la mejor y más agradable imagen. He hecho procesos de sesiones
+                fotográficas a personas, fotoproductos para la elaboración de
+                publicidad y photobooks.
               </p>
             </div>
             {/* Manipulación de Audio y Video */}
@@ -126,13 +129,24 @@ const Skills = () => {
                 Manipulación de Audio y Video
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Tengo altos conocimientos técnicos y prácticos en la utilización
+                de softwares como Adobe Premiere Pro, After Effetcs y Media
+                Encoder. De esta manera consigo hacer efectos de video generales
+                como transiciones, planos, encuadres, construcciones de cintas
+                audiovisuales, calibrado de colores, correción de imágenes,
+                creación de videos promocionales para un producto en específico
+                o material promocional.
+                <br />
+                Además de usar distintos softwares para conseguir la mejor
+                calidad en imágenes y videos para un tema específico.
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:adobe-premiere" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe Premiere Pro CC2020
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:adobe-after-effects" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe After Effetcs CC2020
               </p>
             </div>
             {/* Creacción de Ilustraciones Vectoriales */}
@@ -141,13 +155,23 @@ const Skills = () => {
                 Creacción de Ilustraciones Vectoriales
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                De la mano de softwares cómo Adobe Illustrator, Animate,
+                InDesign y After Effects puedo elaborar elementos vectoriales
+                cómo logos, logotipos, isotipos, elementos gráficos varios del
+                motion gráphics, así como la construcciones de material visual
+                tipo SVG para desarrollo web y prototipado.
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:adobe-illustrator" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe Illustrator CC2020
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:adobe-after-effects" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe After Effetcs CC2020
+              </p>
+              <p>
+              <span class="iconify" data-icon="simple-icons:adobeindesign" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe InDesing CC2020
               </p>
             </div>
             {/* Manipulación de Imagenes */}
@@ -156,13 +180,21 @@ const Skills = () => {
                 Manipulación de Imagenes
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Con conocimientos técnicos y prácticos en la utilización de
+                softwares como Adobe Photoshop, Ligthroom. <br />
+                Gracias a esto puedo elaborar distintas ediciones de imágenes,
+                recuadres, matte paitings, y composiciones, productos como
+                afiches y posters. Así como mockups de páginas web, pruebas de
+                paletas de colores, tipografias y visualizaciones para el
+                proceso previo a la elaboración del Frontend.
+              </p>
+              <p>
+                <span class="iconify" data-icon="simple-icons:adobephotoshop" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe Photoshop CC2020
+              </p>
+              <p>
+                <span class="iconify" data-icon="simple-icons:adobelightroomcc" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe Lightroom Classic CC2020
               </p>
             </div>
             {/* Protitopado Web */}
@@ -171,28 +203,61 @@ const Skills = () => {
                 Diagramación y Prototipado Web
               </h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Conocimientos desarrollados de la mano de Figma y Adobe XD para
+                la creación de layouts como WireFrames de baja fidelidad, alta
+                fidelidad, Mockups y prototipado.
+                <br /> Además de la teoría de composicion, diagramación para
+                adquirir la mayor y mejor experiencia de usuario posible.
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:adobe-xd" data-inline="false" data-width="24" data-height="24"></span>
+                Adobe XD
+              </p>
+              <p>
+                <span class="iconify" data-icon="gg:figma" data-inline="false" data-width="24" data-height="24"></span>
+                Figma
               </p>
             </div>
             {/* Desarrollo Web */}
             <div id="parrafo5" class="my-2" style={{ display: "none" }}>
-              <h3 className="font-weight-bold text-center">
-                Dessarrollo Web
-              </h3>
+              <h3 className="font-weight-bold text-center">Dessarrollo Web</h3>
               <p class="descripcion mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Manejo de distintos lenguajes de programación y etiquetados como
+                Java, Javascript, PHP, C++, HTML5, además de usos de distintos
+                frameworks como React, Laravel, Bootstrap, React-Boostrap, SASS
+                y DJango.
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:javascript" data-inline="false" data-width="24" data-height="24"></span>
+                Java
+              </p>
+              <p>
+                <span class="iconify" data-icon="simple-icons:php" data-inline="false"></span>
+                PHP
+              </p>
+              <p>
+                <span class="iconify" data-icon="gg:c-plus-plus" data-inline="false" data-width="24" data-height="24"></span>
+                Dev-C++
+              </p>
+              <p>
+                <span class="iconify" data-icon="typcn:html5" data-inline="false" data-width="24" data-height="24"></span>
+                HTML5
+              </p>
+              <p>
+                <span class="iconify" data-icon="simple-icons:react" data-inline="false" data-width="24" data-height="24"></span>
+                React
+              </p>
+              <p>
+               <span class="iconify" data-icon="simple-icons:bootstrap" data-inline="false" data-width="24" data-height="24"></span>
+                Bootstrap
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:sass-alt" data-inline="false" data-width="24" data-height="24"></span>
+                SASS
+              </p>
+              <p>
+                <span class="iconify" data-icon="cib:sass-alt" data-inline="false" data-width="24" data-height="24"></span>
+                Django
               </p>
             </div>
           </div>

@@ -37,12 +37,12 @@ $image-gradient-bg: linear-gradient(
 
 * {
   scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif !important;
 }
 
 body {
   margin: 0rem;
   padding: 0rem;
-  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   //overflow-y: hidden;
@@ -168,7 +168,7 @@ body {
 //SKILLS
 .skills {
   &_content {
-    padding-top: 1vh;
+    padding-top: 2vh;
   }
   &_list {
     list-style-type: none;
@@ -195,7 +195,7 @@ body {
 }
 
 .projects_content {
-  padding-top: 5vh;
+  padding-top: 1vh;
 }
 
 .carousel {
@@ -210,7 +210,7 @@ body {
 .card {
   display: flex;
   justify-content: center;
-  width: 90vh;
+  width: 100vh;
   color: $body-bg;
   margin-left: 50vh;
   box-shadow: $shadow;
@@ -299,4 +299,15 @@ body {
       transform: translateY(-10px);
     }
   }
+}
+
+.embed-responsive .card-image-top {
+  object-fit: cover;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius:20px;
 }
