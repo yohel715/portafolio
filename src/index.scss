@@ -326,3 +326,47 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius:20px;
 }
+
+@media screen and (max-width: 1366px){
+  //LANDING
+.landing {
+  &_content {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 50vh;
+  }
+  &_title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+  }
+  &__logo{
+    height:375px;
+  }
+  .icon_landing {
+    color: whitesmoke;
+    -webkit-animation: move 1s infinite alternate;
+    animation: move 1s infinite alternate;
+    @-webkit-keyframes move {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-7px);
+      }
+    }
+    @keyframes move {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-7px);
+      }
+    }
+    &:active {
+      color: #2e9cf7;
+    }
+  }
+}
+}
