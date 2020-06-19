@@ -6,6 +6,8 @@ import matte from "../img/mattepaiting.jpg";
 import matte2 from "../img/mattepaiting_elements.jpg";
 import retrato from "../img/retrato.jpg";
 import edicion from "../img/edicion.jpg";
+import edicion1 from "../img/edicion1.jpg";
+import edicion2 from "../img/edicion2.jpg";
 import lc_logo from "../img/LimonCoral_Logo.jpg";
 import lc_area from "../img/LimonCoral_AreaProteccion.jpg";
 import lc_reticula from "../img/LimonCoral_Retícula.jpg";
@@ -88,22 +90,45 @@ const Projects = () => {
             </div>
             <Card.Body>
               <Card.Title>Landing Page con Bootstrap</Card.Title>
-              <Card.Text>
-                Landing Page usando React y Bootstrap
-              </Card.Text>
+              <Card.Text>Landing Page usando React y Bootstrap</Card.Text>
             </Card.Body>
           </Card>
         </Carousel.Item>
 
         <Carousel.Item>
           <Card>
-            <div class="embed-responsive embed-responsive-16by9">
-              <img
-                alt="Card cap"
-                class="card-image-top embed-responsive-item"
-                src={edicion}
-              />
-            </div>
+            <Carousel interval={null}>
+              <Carousel.Item>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <img
+                    alt="Card cap"
+                    class="card-image-top embed-responsive-item"
+                    src={edicion1}
+                  />
+                </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="embed-responsive embed-responsive-16by9">
+                  <img
+                    alt="Card cap"
+                    class="card-image-top embed-responsive-item"
+                    height="400"
+                    src={edicion2}
+                  />
+                </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="embed-responsive embed-responsive-16by9">
+                  <img
+                    alt="Card cap"
+                    class="card-image-top embed-responsive-item"
+                    height="400"
+                    src={edicion}
+                  />
+                </div>
+              </Carousel.Item>
+            </Carousel>
+
             <Card.Body>
               <Card.Title>Manipulación de Imágenes</Card.Title>
               <Card.Text>
@@ -230,12 +255,13 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>Video Stop Motion</Card.Title>
               <Card.Text>
-                Proyecto de video usando más de 500 fotografías con Adobe Premiere
+                Proyecto de video usando más de 500 fotografías con Adobe
+                Premiere
               </Card.Text>
             </Card.Body>
           </Card>
         </Carousel.Item>
-        
+
         <Carousel.Item>
           <Card>
             <div class="embed-responsive embed-responsive-16by9">
@@ -258,7 +284,7 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </Carousel.Item>
-        
+
         <Carousel.Item>
           <Card>
             <div class="embed-responsive embed-responsive-16by9">
@@ -276,7 +302,8 @@ const Projects = () => {
             <Card.Body>
               <Card.Title>Video con Motion Tracking</Card.Title>
               <Card.Text>
-                Textos en video con effectos de Motion Tracking hecho con Adobe After Effects
+                Textos en video con effectos de Motion Tracking hecho con Adobe
+                After Effects
               </Card.Text>
             </Card.Body>
           </Card>
@@ -304,7 +331,6 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </Carousel.Item>
-
       </Carousel>
     </div>
   );
