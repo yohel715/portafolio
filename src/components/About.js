@@ -69,7 +69,7 @@ const About = () => {
               informatica me desarrollo con java, javascript y php, además de
               ciertas herramientas como React, Bootstrap, Laravel y Django,
               además de tener conocimientos básicos en redes y comunicación de
-              dispotivos (modelo osi y tcp/ip), además poseo conocimientos en
+              dispotivos (modelo osi y modelo tcp/ip), además poseo conocimientos en
               gestión de Base de Datos con SQL Benchmark y conocimientos básicos
               en seguridad informática.
               <br />
