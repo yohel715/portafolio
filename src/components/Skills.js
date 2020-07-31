@@ -3,11 +3,19 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="skills_content">
+      <h1
+        class="skills_tittle_movile text-center text-uppercase"
+        style={{ display: "none" }}
+      >
+        Habilidades
+      </h1>
       <div className="row">
         <div className="skills_column skills_column_left">
           <div class="skills_info_right">
             <ul className="skills_list">
-              <h1 class="text-center mb-3 text-uppercase">Habilidades</h1>
+              <h1 class="skills_tittle text-center mb-3 text-uppercase">
+                Habilidades
+              </h1>
               {/*  Dessarrollo Web */}
               <li onClick={Display5}>
                 <button
@@ -91,7 +99,11 @@ const Skills = () => {
         <div className="skills_column skills_column_right">
           <div class="skills_info">
             {/* Desarrollo Web */}
-            <div id="parrafo5" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo5"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">Dessarrollo Web</h3>
               <p class="descripcion mb-6">
                 Manejo de distintos lenguajes de programación y etiquetados como
@@ -116,6 +128,8 @@ const Skills = () => {
                       class="iconify"
                       data-icon="simple-icons:php"
                       data-inline="false"
+                      data-width="24"
+                      data-height="24"
                     ></span>
                     PHP
                   </p>
@@ -184,7 +198,11 @@ const Skills = () => {
             </div>
 
             {/* Protitopado Web */}
-            <div id="parrafo4" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo4"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">
                 Diagramación y Prototipado Web
               </h3>
@@ -222,7 +240,11 @@ const Skills = () => {
             </div>
 
             {/* Manipulación de Imagenes */}
-            <div id="parrafo3" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo3"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">
                 Manipulación de Imagenes
               </h3>
@@ -262,7 +284,11 @@ const Skills = () => {
             </div>
 
             {/* Creacción de Ilustraciones Vectoriales */}
-            <div id="parrafo2" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo2"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">
                 Creacción de Ilustraciones Vectoriales
               </h3>
@@ -310,7 +336,11 @@ const Skills = () => {
             </div>
 
             {/* Manipulación de Audio y Video */}
-            <div id="parrafo1" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo1"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h2 className="font-weight-bold text-center">
                 Manipulación de Audio y Video
               </h2>
@@ -353,7 +383,11 @@ const Skills = () => {
             </div>
 
             {/* Captura de imagenes digitales */}
-            <div id="parrafo6" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo6"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">
                 Captura de Imagenes Digitales
               </h3>
@@ -371,7 +405,11 @@ const Skills = () => {
             </div>
 
             {/* Identidad Gráfica */}
-            <div id="parrafo7" class="my-2" style={{ display: "none" }}>
+            <div
+              id="parrafo7"
+              class="skills_text my-2"
+              style={{ display: "none" }}
+            >
               <h3 className="font-weight-bold text-center">
                 Elaboración de Identidad Gráfica
               </h3>
