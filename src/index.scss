@@ -383,7 +383,7 @@ body {
 }
 
 //RESPONSIVE CEL
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 420px) {
   *{
     overflow-y:scroll;
   }
@@ -411,7 +411,7 @@ body {
       padding: 0rem 1rem;
       font-size: 0.9rem;
       letter-spacing: 0.5px;
-      margin: 0.8rem  0rem;
+      margin: 2rem  0rem;
     }
   }
 
