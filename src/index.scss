@@ -445,15 +445,15 @@ body {
       padding: 0.5rem 3rem;
     }
     &_title {
-      padding-top: 1.8rem;
-      line-height: 2.5rem;
+      padding-top: 1.7rem;
+      line-height: 2.3rem;
       letter-spacing: 0.2rem;
     }
     &_content_avatar{
-      height: 150px;
+      height: 140px;
     }
     &_avatar{
-      height: 145px;
+      height: 130px;
     }
     &_column {
       justify-content: flex-start;
@@ -464,16 +464,16 @@ body {
       display: flex;
       background: whitesmoke;
       color: #0b3954;
-      height: 25vh;
+      height: 20vh;
     }
     &_column__right{
-      height: 75vh;
+      height: 70vh;
     }
     &_info{
-      height: 75%;
+      height: 70%;
     }
     &_logo {
-      margin: 0rem !important;
+      margin: 0.5rem !important;
       animation: flickerAnimation 3s infinite;
     }
   }
