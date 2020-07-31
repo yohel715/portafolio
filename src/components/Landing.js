@@ -5,18 +5,17 @@ import logo from "../img/ylogo_white.png";
 const Landing = () => {
   return (
     <div className="landing_content" id="landing">
-      <p className="landing-uptitle text-center m-4">
+      <p className="landing-uptitle text-center">
         Desarrollador Web y Diseñador de Interfaz de Usuario
       </p>
       <h1 className="landing_title text-center text-uppercase">
         Yohel Ureña Mora
       </h1>
 
-      <div className="container landing__logo">
+      <div className="landing_logo">
         <img
-          src={logo}
-          height="400"
-          class="rounded mx-auto d-block mr-2"
+          src={logo}  
+          class="landing_logo_img d-block"
           alt="logo"
         />
       </div>
