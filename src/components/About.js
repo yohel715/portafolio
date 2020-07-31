@@ -7,11 +7,10 @@ const About = () => {
     <div className="about_content">
       <div class="row">
         <div class="column about_column about_column__left">
-          <div className="avatar">
+          <div className="about_content_avatar">
             <img
               src={avatar}
-              height="256"
-              class="rounded mx-auto d-block mr-2"
+              class="about_avatar rounded mx-auto d-block mr-2"
               alt="avatar"
             />
           </div>
@@ -22,7 +21,7 @@ const About = () => {
             <br />
           </h1>
         </div>
-        <div class="column about_column">
+        <div class="column about_column about_column__right">
           <div class="about_info">
             <p class="font-weight-bold m-2">
               <h3 class="font-weight-bold text-center m-3">¿Quién soy?</h3>
@@ -87,7 +86,7 @@ const About = () => {
             <img
               src={logo}
               height="32"
-              class="rounded mx-auto d-block mt-5"
+              class="rounded mx-auto d-block"
               alt="logo"
             />
           </div>

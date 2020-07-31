@@ -75,12 +75,12 @@ body {
     animation-fill-mode: forwards;
     height: 50vh;
   }
-  &_logo{
-    display:flex;
+  &_logo {
+    display: flex;
     justify-content: center;
     height: 400px;
   }
-  &_logo_img{
+  &_logo_img {
     height: 380px;
   }
   &_title {
@@ -88,8 +88,8 @@ body {
     font-weight: bolder;
     letter-spacing: 0.2rem;
   }
-  .landing-uptitle{
-    margin-top:2rem;
+  .landing-uptitle {
+    margin-top: 2rem;
   }
   .icon_landing {
     color: whitesmoke;
@@ -126,6 +126,12 @@ body {
   &_title {
     line-height: 4rem;
     letter-spacing: 0.5rem;
+  }
+  &_content_avatar{
+    height: 256px;
+  }
+  &_avatar{
+    height: 256px;
   }
   &_column {
     padding: 3rem;
@@ -384,9 +390,15 @@ body {
 
 //RESPONSIVE CEL
 @media screen and (max-width: 420px) {
-  *{
-    overflow-y:scroll;
+  * {
+    overflow-y: scroll;
   }
+  
+  .row {
+    margin-right: 0px !important;
+  }
+
+  //LANDING
   .landing {
     &_content {
       animation: fadeInAnimation ease 4s;
@@ -399,16 +411,16 @@ body {
       font-weight: bolder;
       letter-spacing: 0.1rem;
     }
-    &_logo{
-      display:flex;
+    &_logo {
+      display: flex;
       justify-content: center;
       height: 290px;
     }
-    &_logo_img{
+    &_logo_img {
       height: 278px;
     }
-    .landing-uptitle{
-      padding: 0rem 3rem;
+    .landing-uptitle {
+      padding: 0rem 4rem;
       font-size: 1.1rem;
       letter-spacing: 0.5px;
     }
@@ -421,10 +433,48 @@ body {
     box-shadow: $shadow;
     z-index: 1000;
     padding: 0.5rem;
-  // letter-spacing: 3px;
-      &-brand{
-        color:Red;
+    // letter-spacing: 3px;
+    &-brand {
+      color: Red;
     }
   }
 
+  //ABOUT
+  .about {
+    .column{
+      padding: 0.5rem 3rem;
+    }
+    &_title {
+      padding-top: 1.8rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.2rem;
+    }
+    &_content_avatar{
+      height: 150px;
+    }
+    &_avatar{
+      height: 145px;
+    }
+    &_column {
+      justify-content: flex-start;
+      width: 100%;
+      // height: 50vh;
+    }
+    &_column__left {
+      display: flex;
+      background: whitesmoke;
+      color: #0b3954;
+      height: 25vh;
+    }
+    &_column__right{
+      height: 75vh;
+    }
+    &_info{
+      height: 75%;
+    }
+    &_logo {
+      margin: 0rem !important;
+      animation: flickerAnimation 3s infinite;
+    }
+  }
 }
