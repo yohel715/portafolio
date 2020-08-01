@@ -5,7 +5,6 @@ import Card from "react-bootstrap/Card";
 import matte from "../img/mattepaiting.jpg";
 import matte2 from "../img/mattepaiting_elements.jpg";
 import retrato from "../img/retrato.jpg";
-import edicion from "../img/edicion.jpg";
 import edicion1 from "../img/edicion1.jpg";
 import edicion2 from "../img/edicion2.jpg";
 import lc_logo from "../img/LimonCoral_Logo.jpg";
@@ -114,16 +113,6 @@ const Projects = () => {
                     class="card-image-top embed-responsive-item"
                     height="400"
                     src={edicion2}
-                  />
-                </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="embed-responsive embed-responsive-16by9">
-                  <img
-                    alt="Card cap"
-                    class="card-image-top embed-responsive-item"
-                    height="400"
-                    src={edicion}
                   />
                 </div>
               </Carousel.Item>
