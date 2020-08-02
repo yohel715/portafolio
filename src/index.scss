@@ -393,7 +393,23 @@ body {
   * {
     overflow-y: scroll;
   }
-
+  .navbar {
+    letter-spacing: 1px;
+  }
+  .navbar-collapse{
+    flex-basis: 0%;
+  }
+  .nav-link{
+    padding: 0rem 0.2rem !important;
+  }
+  .container{
+    display:flex;
+    flex-direction: row;
+  }
+  .collapse{
+    display: flex !important;
+    font-size: 12px
+  }
   .skills,
   .contact {
     height: 100vh;
@@ -685,7 +701,23 @@ body {
   * {
     overflow-y: scroll;
   }
-
+  .navbar {
+    letter-spacing: 1px;
+  }
+  .navbar-collapse{
+    flex-basis: 0%;
+  }
+  .nav-link{
+    padding: 0rem 0.2rem !important;
+  }
+  .container{
+    display:flex;
+    flex-direction: row;
+  }
+  .collapse{
+    display: flex !important;
+    font-size: 12px
+  }
   .skills,
   .contact {
     height: 100vh;
