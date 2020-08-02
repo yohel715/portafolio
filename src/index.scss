@@ -684,7 +684,7 @@ body {
 
 
 //RESPONSIVE CEL MEDIANO
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 370px) {
   * {
     overflow-y: scroll;
   }
