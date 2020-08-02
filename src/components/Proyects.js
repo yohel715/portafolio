@@ -18,7 +18,7 @@ import landing from "../img/landing.jpeg";
 const Projects = () => {
   return (
     <div className="projects_content">
-      <h1 class="text-center mb-3 text-uppercase">Trabajos</h1>
+      <h1 class="projects_title text-center mb-3 text-uppercase">Trabajos</h1>
       <Carousel interval={null}>
         <Carousel.Item>
           <Card>

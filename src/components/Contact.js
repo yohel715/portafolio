@@ -15,7 +15,7 @@ const Contanct = () => {
         </a>
       </div>
       <div className="row_contact">
-        <div className="column contact_info">
+        <div className="column contact_column contact_info">
           <ul className="contact_list">
             <li>
               <a
@@ -90,7 +90,7 @@ const Contanct = () => {
             </a>
           </div>
         </div>
-        <div className="column contact_info">
+        <div className="column contact_column contact_info">
           <ul className="contact_list">
             <li>
               <a
@@ -166,6 +166,110 @@ const Contanct = () => {
           </div>
         </div>
       </div>
+
+      {/* CELULAR */}
+      <div className="contact_column_info_movile" style={{ display: "none" }}>
+        <ul className="contact_list">
+          <li>
+            <a
+              href="https://www.instagram.com/yohel715/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="brandico:facebook-rect"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">Yohel Ureña Mora</p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/yohel715/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="simple-icons:instagram"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">Yohel715</p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/yohel715"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="il:twitter"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">@yohel715</p>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="mailto:yohel715@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="clarity:email-solid"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">yohel715@gmail.com</p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yohel-ure%C3%B1a-mora-b8011b191/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="brandico:linkedin-rect"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">Yohel Ureña Mora</p>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://dribbble.com/yohel715"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span
+                class="iconify"
+                data-icon="ant-design:dribbble-outlined"
+                data-inline="false"
+                data-width="38"
+                data-height="38"
+              ></span>
+              <p className="contact_media_name">yohel715</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <p className="contact_footer text-center">
         Alajuela, Costa Rica <br /> 2020
         <a className="contact_icon" href="#landing">
