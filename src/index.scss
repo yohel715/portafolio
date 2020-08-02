@@ -400,8 +400,7 @@ body {
     padding-top: 0vh;
   }
 
-
-  .about{
+  .about {
     height: 100vh;
     padding-top: 10vh;
   }
@@ -419,7 +418,6 @@ body {
       height: auto;
     }
     &_title {
-      color: blue;
       font-size: 2.8rem;
       font-weight: bolder;
       letter-spacing: 0.1rem;
@@ -587,10 +585,10 @@ body {
   }
 
   //PROJECTS
-  .projects{
+  .projects {
     height: 85vh;
-    &_title{
-      font-size:2.5rem;
+    &_title {
+      font-size: 2.5rem;
       font-weight: bolder;
       letter-spacing: 0.2rem;
       background-color: white;
@@ -598,7 +596,7 @@ body {
       padding: 10px;
     }
   }
-  
+
   .card {
     display: flex;
     justify-content: center;
@@ -628,12 +626,12 @@ body {
     }
     &_headder,
     &_info,
-    &_email{
+    &_email {
       display: flex;
       justify-content: center;
       line-height: 0.2rem;
     }
-    &_info{
+    &_info {
       padding: 0.5rem !important;
     }
     &_list {
@@ -652,17 +650,17 @@ body {
       margin: 0rem 0.5rem 0rem !important;
       display: inline-block;
     }
-    &_media_list{
+    &_media_list {
       font-size: 0.5rem;
       margin-left: 0.8rem !important;
     }
-    &_column{
+    &_column {
       display: none !important;
     }
-    &_column_info_movile{ 
+    &_column_info_movile {
       display: block !important;
     }
-    
+
     .btn_contact {
       background: #0b3954;
       &:hover {
@@ -694,8 +692,7 @@ body {
     padding-top: 0vh;
   }
 
-
-  .about{
+  .about {
     height: 100vh;
     padding-top: 10vh;
   }
@@ -713,7 +710,6 @@ body {
       height: auto;
     }
     &_title {
-      color:green;
       font-size: 2.4rem;
       font-weight: bolder;
       letter-spacing: 0.1rem;
@@ -881,10 +877,10 @@ body {
   }
 
   //PROJECTS
-  .projects{
+  .projects {
     height: 85vh;
-    &_title{
-      font-size:2.5rem;
+    &_title {
+      font-size: 2.5rem;
       font-weight: bolder;
       letter-spacing: 0.2rem;
       background-color: white;
@@ -892,18 +888,27 @@ body {
       padding: 10px;
     }
   }
-  
+
   .card {
     display: flex;
     justify-content: center;
     width: 80vw;
-    height: 50vh;
+    height: 52vh;
     color: $body-bg;
     margin-left: 10vw;
     box-shadow: $shadow;
   }
+  .card-body {
+    padding: 0.5rem;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
   .carousel {
-    height: 50vh;
+    height: 55vh;
     margin-top: 0.1rem;
   }
 
@@ -922,12 +927,12 @@ body {
     }
     &_headder,
     &_info,
-    &_email{
+    &_email {
       display: flex;
       justify-content: center;
       line-height: 0.2rem;
     }
-    &_info{
+    &_info {
       padding: 0.5rem !important;
     }
     &_list {
@@ -946,17 +951,17 @@ body {
       margin: 0rem 0.5rem 0rem !important;
       display: inline-block;
     }
-    &_media_list{
+    &_media_list {
       font-size: 0.5rem;
       margin-left: 0.8rem !important;
     }
-    &_column{
+    &_column {
       display: none !important;
     }
-    &_column_info_movile{ 
+    &_column_info_movile {
       display: block !important;
     }
-    
+
     .btn_contact {
       background: #0b3954;
       &:hover {
