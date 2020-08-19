@@ -393,6 +393,9 @@ body {
   * {
     overflow-y: scroll;
   }
+  .navbar-brand{
+    display: none;
+  }
   .navbar {
     letter-spacing: 1px;
   }
@@ -404,7 +407,8 @@ body {
   }
   .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: space-around;
   }
   .collapse{
     display: flex !important;
@@ -712,7 +716,8 @@ body {
   }
   .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: space-around;
   }
   .collapse{
     display: flex !important;
