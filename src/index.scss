@@ -407,8 +407,7 @@ body {
   }
   .container{
     display:flex;
-    flex-direction: wrap;
-    justify-content: space-around;
+    flex-direction: row;
   }
   .collapse{
     display: flex !important;
@@ -716,8 +715,7 @@ body {
   }
   .container{
     display:flex;
-    flex-direction: wrap;
-    justify-content: space-around;
+    flex-direction: row;
   }
   .collapse{
     display: flex !important;
