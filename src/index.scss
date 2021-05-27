@@ -1,6 +1,10 @@
 $lightblue: #5493FF;
 $black: #35363A;
 
+$font-light: 300;
+$font-regular:300;
+$font-bold: 700;
+
 $body-bg: $black;
 $body-color: white;
 $image-background: url("./img/contact_wallpaper.jpg");
@@ -51,16 +55,24 @@ body {
   box-sizing: border-box;
 }
 
-.landing,
-.about,
-.skills,
-.projects,
-.contact {
-  height: 100vh;
-  padding-top: 10vh;
+h1{
+  font-size: 48px;
+}
+h2{
+  font-size: 32px;
 }
 
+.getting{
+  &_up, &_down{
+    font-weight: bold;
+  }
+}
+
+
+
+
 .navbar {
+  background-color: $black;
   position: fixed;
   top: 0%;
   width: 100vw;
@@ -73,7 +85,7 @@ body {
 
 a{
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: $font-light;
   color: white !important;
 }
 
@@ -95,9 +107,8 @@ a{
     height: 380px;
   }
   &_title {
-    font-size: 4rem;
-    font-weight: bolder;
-    letter-spacing: 0.2rem;
+    color: $lightblue;
+    font-weight: $font-bold;
   }
   .landing-uptitle {
     margin-top: 2rem;
@@ -399,7 +410,8 @@ a{
 }
 
 //RESPONSIVE CEL GRANDE
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 426px) {
+ 
   .nav-link{
     padding: 0rem 0.2rem !important;
   }
