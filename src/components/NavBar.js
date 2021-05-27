@@ -1,53 +1,48 @@
 import React from "react";
-import logo from "../img/ylogo_blue.png";
+import logo from "../img/ylogo_white.png";
 
 const NavBar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light bg-light  navbar-fixed-top"
-      style={{ height: "10vh" }}
+      className="navbar navbar-expand-lg  navbar-fixed-top"
+      style={{ height: "5vh" }}
     >
-      <a className="navbar-brand pl-2" href="/">
-        <img
-          src={logo}
-          height="40"
-          class="d-inline-block align-top mr-2"
-          alt=""
-        />
-      </a>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="container navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#landing">
-              Inicio
-              {/* <span className="sr-only">(current)</span> */}
-            </a>
-          </li>
+      <div className="container">
+        <a className="navbar-brand pl-2" href="/">
+          <img
+            src={logo}
+            height="30"
+            class="d-inline-block align-top mr-2"
+            alt="logo"
+          />
+        </a>
+        <div className="nav-list collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link text-uppercase" href="#about">
+                About me
+              </a>
+            </li>
 
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#about">
-              Acerca de mí
-            </a>
-          </li>
+            <li className="nav-item ml-5">
+              <a className="nav-link text-uppercase" href="#skills">
+                Skills
+              </a>
+            </li>
 
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#skills">
-              Habilidades
-            </a>
-          </li>
+            <li className="nav-item ml-5">
+              <a className="nav-link text-uppercase" href="#projects">
+                Portfolio
+              </a>
+            </li>
 
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#projects">
-              Trabajos
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#contact">
-              Contáctame
-            </a>
-          </li>
-        </ul>
+            <li className="nav-item ml-5">
+              <a className="nav-link text-uppercase" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   ); 

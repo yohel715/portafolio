@@ -1,6 +1,8 @@
-$body-bg: #0b3954;
+$lightblue: #5493FF;
+$black: #35363A;
+
+$body-bg: $black;
 $body-color: white;
-$shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.349);
 $image-background: url("./img/contact_wallpaper.jpg");
 $image-background-blur: blur(10px);
 $image-gradient-bg: linear-gradient(
@@ -37,7 +39,7 @@ $image-gradient-bg: linear-gradient(
 
 * {
   scroll-behavior: smooth;
-  font-family: "Quicksand", sans-serif !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -62,10 +64,19 @@ body {
   position: fixed;
   top: 0%;
   width: 100vw;
-  box-shadow: $shadow;
   z-index: 1000;
-  letter-spacing: 3px;
 }
+
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
+a{
+  font-size: 14px;
+  font-weight: lighter;
+  color: white !important;
+}
+
 
 //LANDING
 .landing {
@@ -148,34 +159,35 @@ body {
   }
 }
 
-//Scroll bars
-.about_info,
-.skills_info {
-  height: 80%;
-  overflow: auto;
+// //Scroll bars
+// .about_info,
+// .skills_info {
+//   height: 80%;
+//   overflow: auto;
 
-  /* width */
-  &::-webkit-scrollbar {
-    width: 10px;
-  }
+//   /* width */
+//   &::-webkit-scrollbar {
+//     width: 10px;
+//   }
 
-  /* Handle */
-  &::-webkit-scrollbar-thumb {
-    background: whitesmoke;
-    border-radius: 10px;
-  }
+//   /* Handle */
+//   &::-webkit-scrollbar-thumb {
+//     background: whitesmoke;
+//     border-radius: 10px;
+//   }
 
-  /* Handle on hover */
-  &::-webkit-scrollbar-thumb:hover {
-    background: #2e9cf7;
-  }
-}
+//   /* Handle on hover */
+//   &::-webkit-scrollbar-thumb:hover {
+//     background: #2e9cf7;
+//   }
+// }
 
-::-webkit-scrollbar {
-  /* make scrollbar transparent */
-  width: 0px;
-  background: transparent;
-}
+// ::-webkit-scrollbar {
+//   /* make scrollbar transparent */
+//   width: 0px;
+//   background: transparent;
+// }
+
 
 .column {
   padding: 2rem;
@@ -244,7 +256,6 @@ body {
   width: 100vh;
   color: $body-bg;
   margin-left: 50vh;
-  box-shadow: $shadow;
 }
 
 .card-img {
@@ -288,7 +299,6 @@ body {
       background: white;
       color: #0b3954;
       font-weight: bold;
-      box-shadow: 0px 0px 20px 1px rgba(11, 57, 84, 0.61);
     }
   }
 
@@ -390,24 +400,8 @@ body {
 
 //RESPONSIVE CEL GRANDE
 @media screen and (max-width: 420px) {
-  * {
-    overflow-y: scroll;
-  }
-  .navbar-brand{
-    display: none;
-  }
-  .navbar {
-    letter-spacing: 1px;
-  }
-  .navbar-collapse{
-    flex-basis: 0%;
-  }
   .nav-link{
     padding: 0rem 0.2rem !important;
-  }
-  .container{
-    display:flex;
-    flex-direction: row;
   }
   .collapse{
     display: flex !important;
@@ -460,7 +454,6 @@ body {
     position: fixed;
     top: 0%;
     max-width: auto;
-    box-shadow: $shadow;
     z-index: 1000;
     padding: 0.5rem;
     // letter-spacing: 3px;
@@ -623,7 +616,6 @@ body {
     height: 50vh;
     color: $body-bg;
     margin-left: 10vw;
-    box-shadow: $shadow;
   }
   .carousel {
     height: 50vh;
@@ -686,7 +678,6 @@ body {
         background: white;
         color: #0b3954;
         font-weight: bold;
-        box-shadow: 0px 0px 20px 1px rgba(11, 57, 84, 0.61);
       }
     }
 
@@ -713,8 +704,9 @@ body {
   .nav-link{
     padding: 0rem 0.2rem !important;
   }
-  .container{
+  .nav-list{
     display:flex;
+    align-content: flex-end;
     flex-direction: row;
   }
   .collapse{
@@ -768,7 +760,6 @@ body {
     position: fixed;
     top: 0%;
     max-width: auto;
-    box-shadow: $shadow;
     z-index: 1000;
     padding: 0.5rem;
     // letter-spacing: 3px;
@@ -931,7 +922,6 @@ body {
     height: 52vh;
     color: $body-bg;
     margin-left: 10vw;
-    box-shadow: $shadow;
   }
   .card-body {
     padding: 0.5rem;
@@ -1003,7 +993,6 @@ body {
         background: white;
         color: #0b3954;
         font-weight: bold;
-        box-shadow: 0px 0px 20px 1px rgba(11, 57, 84, 0.61);
       }
     }
 
