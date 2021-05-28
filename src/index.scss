@@ -2,7 +2,6 @@ $lightblue: #5493FF;
 $black: #35363A;
 
 $font-light: 300;
-$font-regular:300;
 $font-bold: 700;
 
 $body-bg: $black;
@@ -57,6 +56,8 @@ body {
 
 h1{
   font-size: 48px;
+  color: $lightblue;
+  font-weight: $font-bold;
 }
 h2{
   font-size: 32px;
@@ -103,21 +104,6 @@ a{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     height: 50vh;
-  }
-  &_logo {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-  }
-  &_logo_img {
-    height: 380px;
-  }
-  &_title {
-    color: $lightblue;
-    font-weight: $font-bold;
-  }
-  .landing-uptitle {
-    margin-top: 2rem;
   }
   .icon_landing {
     color: whitesmoke;

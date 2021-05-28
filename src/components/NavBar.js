@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/ylogo_white.png";
+import logo from "../img/SVG/logo.svg";
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
         <a className="navbar-brand" href="/">
           <img
             src={logo}
-            height="30"
+            height="20"
             class="d-inline-block"
             alt="logo"
           />
