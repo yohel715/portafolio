@@ -8,23 +8,23 @@ const About = () => {
     <div className="about_content pt-5">
       <div className="container">
         <p>Take a look about me, my hobbies and passions</p>
-        <Carousel fade interval={null}>
-          <Carousel.Item className="d-flex justify-content-center py-5">
+        <Carousel interval={null} className="mx-4">
+          <Carousel.Item className="py-2">
             <div className="card-group">
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{ height: "17rem" }}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <img src={Map} alt="map" height="250" class="d-block" />
                 </div>
               </div>
 
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{ height: "17rem" }}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     I’m from Costa Rica; I was born the july 15 in the 2000 in
@@ -41,22 +41,22 @@ const About = () => {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item className="d-flex justify-content-center py-5">
+          <Carousel.Item className="py-2">
             <div className="card-group">
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{height: "17rem"}}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <h1 className="pt-3">About my knowledge</h1>
                 </div>
               </div>
 
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{height: "17rem"}}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     In 2017 I completed my studies in bachillor at an bilingual
@@ -72,22 +72,22 @@ const About = () => {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item className="d-flex justify-content-center py-5">
+          <Carousel.Item className="py-2">
             <div className="card-group">
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{height: "17rem"}}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <h1 className="pt-3">About my hobbies & passions</h1>
                 </div>
               </div>
 
               <div
                 class="card text-white bg-transparent mb-3"
-                style={{ width: "30rem" }}
+                style={{height: "17rem"}}
               >
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     When I was very young the challenges attract my attention,
@@ -102,7 +102,7 @@ const About = () => {
                     I consider myself as a
                     genuine passionate about solving situations through
                     attractive designs and I’m constantly looking to learn new
-                    things everyday..{" "}
+                    things everyday.{" "}
                   </p>
                 </div>
               </div>
