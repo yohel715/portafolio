@@ -7,13 +7,11 @@ const Landing = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-6">
-             <div className="ml-5">
-                <h2 className="getting_up">Hi! I’m</h2>
-                <h1 className="landing_title">Yohel Ureña Mora</h1>
-                <h2 className="getting_down">
-                  Developer, UX, UI Designer <br/> & Graphic Designer
-                </h2>
-              </div>
+              <h2 className="getting_up">Hi! I’m</h2>
+              <h1 className="landing_title">Yohel Ureña Mora</h1>
+              <h2 className="getting_down">
+                Developer, UX, UI Designer <br/> & Graphic Designer
+              </h2>
           </div>
           <div className="col-sm-6">
             <div className="d-flex justify-content-center">  
@@ -27,9 +25,6 @@ const Landing = () => {
             </div>
           </div>
         </div>
-
-        
-
     </div>
   );
 };

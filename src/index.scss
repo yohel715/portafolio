@@ -68,9 +68,6 @@ h2{
   }
 }
 
-
-
-
 .navbar {
   background-color: $black;
   position: fixed;
@@ -87,6 +84,15 @@ a{
   font-size: 14px;
   font-weight: $font-light;
   color: white !important;
+}
+
+.carousel-control{
+  &-prev{
+    width: 2% !important;
+  }
+  &-next{
+    width: 2% !important;
+  }
 }
 
 
@@ -137,10 +143,6 @@ a{
       color: #2e9cf7;
     }
   }
-}
-
-.row {
-  margin-right: 15px !important;
 }
 
 //ABOUT
@@ -252,7 +254,7 @@ a{
   padding-top: 1vh;
 }
 
-.carousel {
+/*.carousel {
   width: 100%;
   .slide {
     height: 50%;
@@ -272,7 +274,7 @@ a{
 .card-img {
   object-fit: cover;
   object-position: 20% 10px;
-}
+}*/
 
 //CONTACT
 .contact {
@@ -354,16 +356,6 @@ a{
   }
 }
 
-.embed-responsive .card-image-top {
-  object-fit: cover;
-  padding: 0.2rem;
-  border-radius: 10px;
-}
-
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-}
 
 @media screen and (max-width: 1366px) {
   //LANDING
@@ -619,19 +611,6 @@ a{
       color: $body-bg;
       padding: 10px;
     }
-  }
-
-  .card {
-    display: flex;
-    justify-content: center;
-    width: 80vw;
-    height: 50vh;
-    color: $body-bg;
-    margin-left: 10vw;
-  }
-  .carousel {
-    height: 50vh;
-    margin-top: 0.1rem;
   }
 
   //CONTACT
@@ -925,28 +904,6 @@ a{
       color: $body-bg;
       padding: 10px;
     }
-  }
-
-  .card {
-    display: flex;
-    justify-content: center;
-    width: 80vw;
-    height: 52vh;
-    color: $body-bg;
-    margin-left: 10vw;
-  }
-  .card-body {
-    padding: 0.5rem;
-  }
-  .card-title {
-    font-size: 20px;
-  }
-  .card-text {
-    font-size: 16px;
-  }
-  .carousel {
-    height: 55vh;
-    margin-top: 0.1rem;
   }
 
   //CONTACT

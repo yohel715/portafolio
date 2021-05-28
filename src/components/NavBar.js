@@ -8,11 +8,11 @@ const NavBar = () => {
       style={{ height: "5vh" }}
     >
       <div className="container">
-        <a className="navbar-brand pl-2" href="/">
+        <a className="navbar-brand" href="/">
           <img
             src={logo}
             height="30"
-            class="d-inline-block align-top mr-2"
+            class="d-inline-block"
             alt="logo"
           />
         </a>
