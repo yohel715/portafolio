@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className="skills container pt-5">
       <div className="row align-items-start">
-        <div className="col">
+        <div className="col-sm-6">
           <h1 className="text-center">Software Development</h1>
           <p>
             Management of different programming languages ​​such as Java,
@@ -110,16 +110,86 @@ const Skills = () => {
               <p className="font-weight-bold ml-1">Laravel</p>
             </div>
           </div>
+          {/* contenedor de iconos tercera linea */}
+          <div className="d-flex">
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="cib:wordpress"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">WordPress</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="simple-icons:drupal"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">Drupal</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="cib:github"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">Git Hub</p>
+              {/**/}
+              <div className="d-flex px-2">
+                <span
+                  class="iconify"
+                  data-icon="file-icons:composer"
+                  data-inline="false"
+                  data-width="24"
+                  data-height="24"
+                ></span>
+                <p className="font-weight-bold ml-1">Composer</p>
+              </div>
+            </div>
+          </div>
+          {/*Contenedor iconoso tercera linea */}
+          <div className="d-flex">
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="file-icons:npm"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">NPM</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="teenyicons:nodejs-solid"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">Node.js</p>
+            </div>
+          </div>
         </div>
 
-        <div className="col">
-          <h1 className="text-center">
-            Design & <br /> Multimedia
-          </h1>
+        <div className="col-sm-6">
+          <h1 className="text-center mx-5">Design & Multimedia</h1>
           <p>
-            Elaboration of identity and vector elements such as branding, various components of
-            motion graphics, as well as the construction of visual material for
-            web development and prototyping.
+            Elaboration of identity and vector elements such as branding,
+            various components of motion graphics, as well as the construction
+            of visual material for web development and prototyping.
           </p>
           {/* contenedor iconos */}
           <div className="d-flex">
