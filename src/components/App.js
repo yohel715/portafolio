@@ -3,7 +3,7 @@ import React from "react";
 import Landing from "./Landing";
 import NavBar from "./NavBar";
 import About from "./About";
-// import Skills from "./Skills";
+import Skills from "./Skills";
 // import Projects from "./Proyects";
 // import Contact from "./Contact";
 
@@ -19,10 +19,10 @@ class App extends React.Component {
         <section id="about" className="about">
           <About />
         </section>
-        {/* <section id="skills" className="skills">
+        <section id="skills" className="skills">
           <Skills />
         </section >
-        <section id="projects" className="projects">
+        {/* <section id="projects" className="projects">
           <Projects />
         </section>
           <section id="contact" className="contact">
