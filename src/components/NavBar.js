@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg  navbar-fixed-top"
-      style={{ height: "5vh" }}
+      style={{ height: "4vh" }}
     >
       <div className="container">
         <a className="navbar-brand" href="/">
@@ -16,7 +16,7 @@ const NavBar = () => {
             alt="logo"
           />
         </a>
-        <div className="nav-list collapse navbar-collapse" id="navbarNav">
+        <div className="navbar-list collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link text-uppercase" href="#about">

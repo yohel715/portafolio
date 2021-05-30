@@ -9,7 +9,8 @@ const Skills = () => {
           <p>
             Management of different programming languages ​​such as Java,
             Javascript, PHP and Android Studio. In addition to uses of different
-            frameworks such as React, Laravel, Bootstrap, SASS.
+            frameworks such as React, Laravel, Bootstrap and SASS. And the
+            platform Expo for making universal native apps for Android, iOS.
             <br /> <br />
             Besides the uses of CMS including WordPress and Drupal; Tools for
             control version with GitHub and dependency manager such as Composer,
@@ -116,6 +117,17 @@ const Skills = () => {
             <div className="d-flex px-2">
               <span
                 class="iconify"
+                data-icon="cib:expo"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">Expo</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
                 data-icon="cib:wordpress"
                 data-inline="false"
                 data-width="24"
@@ -143,22 +155,22 @@ const Skills = () => {
                 data-width="24"
                 data-height="24"
               ></span>
-              <p className="font-weight-bold ml-1">Git Hub</p>
-              {/**/}
-              <div className="d-flex px-2">
-                <span
-                  class="iconify"
-                  data-icon="file-icons:composer"
-                  data-inline="false"
-                  data-width="24"
-                  data-height="24"
-                ></span>
-                <p className="font-weight-bold ml-1">Composer</p>
-              </div>
+              <p className="font-weight-bold ml-1">GitHub</p>
             </div>
           </div>
           {/*Contenedor iconoso tercera linea */}
           <div className="d-flex">
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="file-icons:composer"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">Composer</p>
+            </div>
             {/**/}
             <div className="d-flex px-2">
               <span

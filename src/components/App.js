@@ -4,8 +4,8 @@ import Landing from "./Landing";
 import NavBar from "./NavBar";
 import About from "./About";
 import Skills from "./Skills";
-// import Projects from "./Proyects";
-// import Contact from "./Contact";
+import Projects from "./Proyects";
+import Contact from "./Contact";
 
 
 class App extends React.Component {
@@ -22,12 +22,12 @@ class App extends React.Component {
         <section id="skills" className="skills">
           <Skills />
         </section >
-        {/* <section id="projects" className="projects">
+        <section id="projects" className="projects">
           <Projects />
         </section>
-          <section id="contact" className="contact">
-            <Contact />
-          </section> */}
+        <section id="contact" className="contact">
+          <Contact />
+        </section>
       </div>
     );
   };
