@@ -20,7 +20,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <Button variant="outline-primary" type="link" href="">
+        <Button variant="outline-primary" type="link" target="_blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3dc11e31-b00d-4e14-a1ba-03bebc9992d7">
           Check my curriculum
         </Button>
       </div>
