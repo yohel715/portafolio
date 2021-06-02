@@ -15,8 +15,8 @@ const Landing = () => {
             </h2>
           </div>
           <div className="col-sm-6 pt-2">
-            <div className=" landing_photome d-flex justify-content-center mb-2">
-              <img src={me} alt="me" />
+            <div className="d-flex justify-content-center mb-2">
+              <img src={me} height="400" alt="me" />
             </div>
           </div>
         </div>
