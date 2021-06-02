@@ -53,7 +53,12 @@ a {
   font-size: 12px;
   font-weight: $font-light;
   color: white;
+  &:hover {
+    color:$lightblue;
+    text-decoration: none;
+  }
 }
+
 li {
   list-style-type: none;
 }
@@ -89,7 +94,7 @@ li {
   &_icon {
     display: flex;
     justify-content: flex-end;
-    padding-right: 5rem;
+    padding-right: 4rem;
     & {
       -webkit-animation: mover 1s infinite alternate;
       animation: mover 1s infinite alternate;

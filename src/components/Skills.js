@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="skills container pt-5">
       <div className="row align-items-start">
         <div className="col-sm-6">
-          <h1 className="text-center">Software Development</h1>
+          <h1 className="text-center mx-5">Software Development</h1>
           <p>
             Management of different programming languages ​​such as Java,
             Javascript, PHP and Android Studio. In addition to uses of different
@@ -186,7 +186,7 @@ const Skills = () => {
         </div>
 
         <div className="col-sm-6">
-          <h1 className="skills_text_title_right text-center mx-5">Design & Multimedia</h1>
+          <h1 className="text-center mx-5">Design & Multimedia</h1>
           <p>
             Elaboration of identity and vector elements such as branding,
             various components of motion graphics, as well as the construction

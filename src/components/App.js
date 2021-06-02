@@ -3,8 +3,8 @@ import React from "react";
 import Landing from "./Landing";
 import NavBar from "./NavBar";
 import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Proyects";
+import Skill from "./Skills";
+import Proyect from "./Proyects";
 import Contact from "./Contact";
 
 
@@ -19,11 +19,11 @@ class App extends React.Component {
         <section id="about" className="about">
           <About />
         </section>
-        <section id="skills" className="skills">
-          <Skills />
+        <section id="skill" className="skill">
+          <Skill />
         </section >
-        <section id="projects" className="projects">
-          <Projects />
+        <section id="proyect" className="proyect">
+          <Proyect />
         </section>
         <section id="contact" className="contact">
           <Contact />

@@ -18,8 +18,8 @@ const NavBar = () => {
           className="justify-content-end">
           <Nav className="me-auto">
             <Nav.Link href="#landing" className="mx-3">About me</Nav.Link>
-            <Nav.Link href="#skills" className="mx-3">Skills</Nav.Link>
-            <Nav.Link href="#projects" className="mx-3">Portfolio</Nav.Link>
+            <Nav.Link href="#skill" className="mx-3">Skills</Nav.Link>
+            <Nav.Link href="#proyect" className="mx-3">Portfolio</Nav.Link>
             <Nav.Link href="#contact" className="mx-3">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

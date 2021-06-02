@@ -44,7 +44,7 @@ const Contanct = () => {
         <div className="col-sm-5">
           <div>
             <h2>My social networks</h2>
-            <div className="d-flex py-2">
+            <a className="d-flex py-2"  target="_blank" href="mailto:yohel715@gmail.com" rel="noopener noreferrer">
               <span
                 class="iconify"
                 data-icon="dashicons:email-alt"
@@ -53,8 +53,8 @@ const Contanct = () => {
                 data-height="24"
               ></span>
               <h5 className="font-weight-regular ml-2">yohel715@gmail.com</h5>
-            </div>
-            <div className="d-flex py-2">
+            </a>
+            <a className="d-flex py-2" target="_blank" href="https://www.linkedin.com/in/yohel-ure%C3%B1a-mora-b8011b191/" rel="noopener noreferrer">
               <span
                 class="iconify"
                 data-icon="akar-icons:linkedin-fill"
@@ -63,8 +63,8 @@ const Contanct = () => {
                 data-height="24"
               ></span>
               <h5 className="font-weight-regular ml-2">Yohel Ureña Mora</h5>
-            </div>
-            <div className="d-flex py-2">
+            </a>
+            <a className="d-flex py-2" target="_blank" href="https://instagram.com/yohel.design" rel="noopener noreferrer">
               <span
                 class="iconify"
                 data-icon="ant-design:instagram-filled"
@@ -73,7 +73,7 @@ const Contanct = () => {
                 data-height="24"
               ></span>
               <h5 className="font-weight-regular ml-2">yohel.design</h5>
-            </div>
+            </a>
             <div className="d-flex py-2">
               <span
                 class="iconify"
