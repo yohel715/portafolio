@@ -9,21 +9,15 @@ const About = () => {
         <p>Take a look about me, my hobbies and passions</p>
         <Carousel interval={null} className="mx-4">
           <Carousel.Item className="py-2">
-            <div className="card-group">
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{ height: "17rem" }}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
-                  <img src={Map} alt="map" height="250" class="d-block" />
+            <div className="card-group  about_card">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="map d-flex justify-content-center pt-3 mx-5">
+                  <img src={Map} height="200" alt="map" />
                 </div>
               </div>
 
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{ height: "17rem" }}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     I’m from Costa Rica; I was born on july 15 in the 2000 in
@@ -41,21 +35,15 @@ const About = () => {
           </Carousel.Item>
 
           <Carousel.Item className="py-2">
-            <div className="card-group">
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{height: "17rem"}}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
+            <div className="card-group about_card">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="pt-3 mx-5">
                   <h1 className="pt-3">About my knowledge</h1>
                 </div>
               </div>
 
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{height: "17rem"}}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     In 2017 I completed my studies in bachillor at a bilingual
@@ -63,8 +51,8 @@ const About = () => {
                     material empirically learning from videos on internet.
                     <br />
                     <br />
-                    Since 2018 I’ve been studying Informática y Tecnología Multimedia
-                    major at the Univerdad de Costa Rica.{" "}
+                    Since 2018 I’ve been studying Informática y Tecnología
+                    Multimedia major at the Univerdad de Costa Rica.{" "}
                   </p>
                 </div>
               </div>
@@ -72,21 +60,15 @@ const About = () => {
           </Carousel.Item>
 
           <Carousel.Item className="py-2">
-            <div className="card-group">
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{height: "17rem"}}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
+            <div className="card-group about_card">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="pt-3 mx-5">
                   <h1 className="pt-3">About my hobbies & passions</h1>
                 </div>
               </div>
 
-              <div
-                class="card text-white bg-transparent mb-3"
-                style={{height: "17rem"}}
-              >
-                <div class="card-body d-flex justify-content-center pt-3 mx-5">
+              <div class="card text-white bg-transparent mb-3">
+                <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
                     When I was very young the challenges attracted my attention,
@@ -94,14 +76,9 @@ const About = () => {
                     rubic cubes and puzzles.
                     <br />
                     <br />
-                    I’m also a gamer maybe because I
-                    have always enjoyed technology.
-                    <br />
-                    <br />
-                    I consider myself as a
-                    genuine passionate about solving situations through
-                    attractive designs and I’m constantly looking to learn new
-                    things everyday.{" "}
+                    I consider myself as a genuine passionate about
+                    solving situations through attractive designs and I’m
+                    constantly looking to learn new things everyday.{" "}
                   </p>
                 </div>
               </div>

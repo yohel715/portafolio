@@ -14,13 +14,13 @@ const Landing = () => {
               Developer, UX, UI Designer <br /> & Graphic Designer
             </h2>
           </div>
-          <div className="col-sm-6">
-            <div className="d-flex justify-content-center mb-2">
-              <img src={me} height="400" class="d-inline-block" alt="me" />
+          <div className="col-sm-6 pt-2">
+            <div className=" landing_photome d-flex justify-content-center mb-2">
+              <img src={me} alt="me" />
             </div>
           </div>
         </div>
-        <Button variant="outline-primary" type="link" target="_blank" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3dc11e31-b00d-4e14-a1ba-03bebc9992d7">
+        <Button variant="outline-primary" type="link" target="_blank" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:414403fb-c7ae-4072-82a9-fa8d193ee68a">
           Check my curriculum
         </Button>
       </div>

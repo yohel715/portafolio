@@ -18,7 +18,7 @@ const Skills = () => {
           </p>
 
           {/* contenedor iconos */}
-          <div className="d-flex">
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -65,7 +65,7 @@ const Skills = () => {
             </div>
           </div>
           {/* contenedor iconos segunda linea*/}
-          <div className="d-flex">
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -112,7 +112,7 @@ const Skills = () => {
             </div>
           </div>
           {/* contenedor de iconos tercera linea */}
-          <div className="d-flex">
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -158,8 +158,8 @@ const Skills = () => {
               <p className="font-weight-bold ml-1">GitHub</p>
             </div>
           </div>
-          {/*Contenedor iconoso tercera linea */}
-          <div className="d-flex">
+          {/*Contenedor iconoso cuarta linea */}
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -204,7 +204,7 @@ const Skills = () => {
             of visual material for web development and prototyping.
           </p>
           {/* contenedor iconos */}
-          <div className="d-flex">
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -251,7 +251,7 @@ const Skills = () => {
             </div>
           </div>
           {/* contenedor iconos segunda linea*/}
-          <div className="d-flex">
+          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
