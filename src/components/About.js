@@ -11,8 +11,8 @@ const About = () => {
           <Carousel.Item className="py-2">
             <div className="card-group  about_card">
               <div class="card text-white bg-transparent mb-3">
-                <div class="map d-flex justify-content-center pt-3 mx-5">
-                  <img src={Map} height="200" alt="map" />
+                <div class="d-flex justify-content-center pt-3 mx-5">
+                  <img class="map" src={Map} height="200" alt="map" />
                 </div>
               </div>
 

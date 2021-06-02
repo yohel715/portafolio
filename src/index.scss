@@ -138,6 +138,10 @@ li{
   }
 }
 
+.caption{
+  font-size: 10px !important;
+}
+
 //RESPONSIVE MOBILE
 @media screen and (max-width: 426px) { 
   h1{
@@ -168,6 +172,47 @@ li{
 
   .landing_photome{
     height: 100px !important;
+  }
+
+  .map{
+    height: 150px !important;
+  }
+
+  
+.carousel-control{
+  &-prev{
+    width: 5% !important;
+  }
+  &-next{
+    width: 5% !important;
+  }
+}
+
+  .about_card{
+    height: 25rem !important;
+
+  } 
+
+  .card-text{
+    font-size: 12px !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  .skills_text_title_right{
+    margin-inline: 0% !important;
+  }
+
+  .tabs{
+    font-size: 12px !important;
+  }
+
+  .footer_logo{
+    margin-right: 4rem;
+  }
+
+  .contact_icon{
+    padding-right: 1rem;
   }
 }
 
@@ -212,13 +257,9 @@ li{
 
     &_text{
       margin-left: 0.1rem !important;
-      margin-right: 0.1rem !important;
+      margin-right: 0.5rem !important;
     }
   }  
-
-  .icons_content{
-    width: 30vw;
-  }
 
   .iconify{
     width: 20px;

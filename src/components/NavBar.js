@@ -7,26 +7,20 @@ const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <div className="container">
-        <Navbar.Brand href=".">
-          <a className="navbar-brand">
+        <Navbar.Brand href="."> 
+          <span className="brand">
             <img src={logo} height="20" class="d-inline-block" alt="logo" />
-          </a>
+          </span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end">
           <Nav className="me-auto">
-            <Nav.Link href="#landing">
-              <a className="nav-link text-uppercase">About Me</a>
-            </Nav.Link>
-            <Nav.Link href="#skills">
-              <a className="nav-link text-uppercase">Skills</a>
-            </Nav.Link>
-            <Nav.Link href="#projects">
-              <a className="nav-link text-uppercase">Portfolio</a>
-            </Nav.Link>
-            <Nav.Link href="#contact">
-              <a className="nav-link text-uppercase">Contact</a>
-            </Nav.Link>
+            <Nav.Link href="#landing" className="mx-3">About me</Nav.Link>
+            <Nav.Link href="#skills" className="mx-3">Skills</Nav.Link>
+            <Nav.Link href="#projects" className="mx-3">Portfolio</Nav.Link>
+            <Nav.Link href="#contact" className="mx-3">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>

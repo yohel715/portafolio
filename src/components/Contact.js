@@ -88,11 +88,11 @@ const Contanct = () => {
         </div>
       </div>
       <div className="d-flex justify-content-between">
-        <p>
+        <p className="caption">
           © yohelurena.com <br /> Alajuela, Costa Rica <br /> 2021
         </p>
 
-        <img src={logo} height="30" class="d-inline-block" alt="logo" />
+        <img src={logo} height="30" class="footer_logo d-inline-block" alt="logo" />
 
         <a href="#landing" className="contact_icon">
           <span

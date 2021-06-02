@@ -16,9 +16,7 @@ const Skills = () => {
             control version with GitHub and dependency manager such as Composer,
             NPM and Node.js
           </p>
-
-          {/* contenedor iconos */}
-          <div className="icons_content d-flex">
+          <div className="d-flex flex-wrap mx-2">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -63,9 +61,6 @@ const Skills = () => {
               ></span>
               <p className="font-weight-bold ml-1">Android Studio</p>
             </div>
-          </div>
-          {/* contenedor iconos segunda linea*/}
-          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -110,9 +105,6 @@ const Skills = () => {
               ></span>
               <p className="font-weight-bold ml-1">Laravel</p>
             </div>
-          </div>
-          {/* contenedor de iconos tercera linea */}
-          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -157,9 +149,6 @@ const Skills = () => {
               ></span>
               <p className="font-weight-bold ml-1">GitHub</p>
             </div>
-          </div>
-          {/*Contenedor iconoso cuarta linea */}
-          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -197,14 +186,13 @@ const Skills = () => {
         </div>
 
         <div className="col-sm-6">
-          <h1 className="text-center mx-5">Design & Multimedia</h1>
+          <h1 className="skills_text_title_right text-center mx-5">Design & Multimedia</h1>
           <p>
             Elaboration of identity and vector elements such as branding,
             various components of motion graphics, as well as the construction
             of visual material for web development and prototyping.
           </p>
-          {/* contenedor iconos */}
-          <div className="icons_content d-flex">
+          <div className="d-flex flex-wrap mx-2">
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -249,9 +237,6 @@ const Skills = () => {
               ></span>
               <p className="font-weight-bold ml-1">InDesign</p>
             </div>
-          </div>
-          {/* contenedor iconos segunda linea*/}
-          <div className="icons_content d-flex">
             {/**/}
             <div className="d-flex px-2">
               <span
