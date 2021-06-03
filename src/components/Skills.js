@@ -8,15 +8,37 @@ const Skills = () => {
           <h1 className="text-center mx-5">Software Development</h1>
           <p>
             Management of different programming languages ​​such as Java,
-            Javascript, PHP and Android Studio. In addition to uses of different
-            frameworks such as React, Laravel, Bootstrap and SASS. And the
+            Javascript, PHP. In addition to uses of different
+            frameworks such as Android Studio, React, Laravel, Bootstrap and SASS. And the
             platform Expo for making universal native apps for Android, iOS.
             <br /> <br />
             Besides the uses of CMS including WordPress and Drupal; Tools for
             control version with GitHub and dependency manager such as Composer,
             NPM and Node.js
           </p>
-          <div className="d-flex flex-wrap mx-2">
+          <div className="d-flex flex-wrap mx-1">
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="cib:html5"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">HTML 5</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                class="iconify"
+                data-icon="ion:logo-css3"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <p className="font-weight-bold ml-1">CSS</p>
+            </div>
             {/**/}
             <div className="d-flex px-2">
               <span
@@ -38,17 +60,6 @@ const Skills = () => {
                 data-height="24"
               ></span>
               <p className="font-weight-bold ml-1">PHP</p>
-            </div>
-            {/**/}
-            <div className="d-flex px-2">
-              <span
-                class="iconify"
-                data-icon="cib:html5"
-                data-inline="false"
-                data-width="24"
-                data-height="24"
-              ></span>
-              <p className="font-weight-bold ml-1">HTML 5</p>
             </div>
             {/**/}
             <div className="d-flex px-2">
@@ -188,11 +199,17 @@ const Skills = () => {
         <div className="col-sm-6">
           <h1 className="text-center mx-5">Design & Multimedia</h1>
           <p>
-            Elaboration of identity and vector elements such as branding,
-            various components of motion graphics, as well as the construction
-            of visual material for web development and prototyping.
+            Elaboration and vector elements, various components of motion
+            graphics, as well as making of visual material and wireframes for
+            web development and prototyping.
+            <br />
+            <br />
+            In addition constructions of visual identity as branding with
+            elements such as logos, business cards,
+            thematic flyers and mockups. Mainly focused in the
+            elaborations of brands guidelines.
           </p>
-          <div className="d-flex flex-wrap mx-2">
+          <div className="d-flex flex-wrap mx-1">
             {/**/}
             <div className="d-flex px-2">
               <span

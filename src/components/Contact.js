@@ -64,6 +64,16 @@ const Contanct = () => {
               ></span>
               <h5 className="font-weight-regular ml-2">Yohel Ureña Mora</h5>
             </a>
+            <a className="d-flex py-2" target="_blank" href="https://github.com/yohel715" rel="noopener noreferrer">
+              <span
+                class="iconify"
+                data-icon="ant-design:github"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <h5 className="font-weight-regular ml-2">yohel715</h5>
+            </a>
             <a className="d-flex py-2" target="_blank" href="https://instagram.com/yohel.design" rel="noopener noreferrer">
               <span
                 class="iconify"
