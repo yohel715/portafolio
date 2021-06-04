@@ -298,6 +298,13 @@ const Proyects = () => {
                 data-width="24"
                 data-height="24"
               ></span>
+              <span
+                class="iconify"
+                data-icon="cib:github"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
             </small>
           </Card.Footer>
         </Card>
