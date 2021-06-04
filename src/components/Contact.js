@@ -1,9 +1,31 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import logo from "../img/SVG/logo.svg";
 
 const Contanct = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7sdf16h",
+        "template_14r718o",
+        e.target,
+        "user_IA86SbDUjhLZNfcLSCt8p"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div className="container pt-5">
       <h1>Contact Me</h1>
@@ -13,17 +35,22 @@ const Contanct = () => {
         <div className="col-sm-7">
           <h2>Text me</h2>
 
-          <Form>
+          {/* onSubmit={sendEmail} */}
+          <Form className="contact-form">
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter your email" />
+              <Form.Control type="email" placeholder="Enter your email" name="email"/>
               <Form.Text className="text-muted">
                 I'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>
             <Form.Group>
+              <Form.Label>Subject</Form.Label>
+              <Form.Control type="text" placeholder="Enter your subject" name="subject"/>
+            </Form.Group>
+            <Form.Group>
               <Form.Label>What's your name?</Form.Label>
-              <Form.Control type="text" placeholder="Enter your name" />
+              <Form.Control type="text" placeholder="Enter your name" name="name"/>
             </Form.Group>
             <Form.Group
               className="mb-3"
@@ -34,9 +61,10 @@ const Contanct = () => {
                 as="textarea"
                 rows={4}
                 placeholder="Enter your message"
+                name="message"
               />
             </Form.Group>
-            <Button variant="outline-primary  px-5 mb-4" type="submit">
+            <Button variant="outline-primary  px-5 mb-4" type="submit" disabled={false}> 
               Send
             </Button>
           </Form>
@@ -44,7 +72,12 @@ const Contanct = () => {
         <div className="col-sm-5">
           <div>
             <h2>My social networks</h2>
-            <a className="d-flex py-2"  target="_blank" href="mailto:yohel715@gmail.com" rel="noopener noreferrer">
+            <a
+              className="d-flex py-2"
+              target="_blank"
+              href="mailto:yohel715@gmail.com"
+              rel="noopener noreferrer"
+            >
               <span
                 class="iconify"
                 data-icon="dashicons:email-alt"
@@ -54,7 +87,12 @@ const Contanct = () => {
               ></span>
               <h5 className="font-weight-regular ml-2">yohel715@gmail.com</h5>
             </a>
-            <a className="d-flex py-2" target="_blank" href="https://www.linkedin.com/in/yohel-ure%C3%B1a-mora-b8011b191/" rel="noopener noreferrer">
+            <a
+              className="d-flex py-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/yohel-ure%C3%B1a-mora-b8011b191/"
+              rel="noopener noreferrer"
+            >
               <span
                 class="iconify"
                 data-icon="akar-icons:linkedin-fill"
@@ -64,7 +102,12 @@ const Contanct = () => {
               ></span>
               <h5 className="font-weight-regular ml-2">Yohel Ureña Mora</h5>
             </a>
-            <a className="d-flex py-2" target="_blank" href="https://github.com/yohel715" rel="noopener noreferrer">
+            <a
+              className="d-flex py-2"
+              target="_blank"
+              href="https://github.com/yohel715"
+              rel="noopener noreferrer"
+            >
               <span
                 class="iconify"
                 data-icon="ant-design:github"
@@ -74,7 +117,12 @@ const Contanct = () => {
               ></span>
               <h5 className="font-weight-regular ml-2">yohel715</h5>
             </a>
-            <a className="d-flex py-2" target="_blank" href="https://instagram.com/yohel.design" rel="noopener noreferrer">
+            <a
+              className="d-flex py-2"
+              target="_blank"
+              href="https://instagram.com/yohel.design"
+              rel="noopener noreferrer"
+            >
               <span
                 class="iconify"
                 data-icon="ant-design:instagram-filled"
@@ -102,7 +150,12 @@ const Contanct = () => {
           © yohelurena.com <br /> Alajuela, Costa Rica <br /> 2021
         </p>
 
-        <img src={logo} height="30" class="footer_logo d-inline-block" alt="logo" />
+        <img
+          src={logo}
+          height="30"
+          class="footer_logo d-inline-block"
+          alt="logo"
+        />
 
         <a href="#landing" className="contact_icon">
           <span
