@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="container">
         <Navbar.Brand href="."> 
           <span className="brand">
-            <img src={logo} height="20" class="d-inline-block" alt="logo" />
+            <img src={logo} height="30" class="d-inline-block" alt="logo" />
           </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
