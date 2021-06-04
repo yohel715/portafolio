@@ -280,6 +280,14 @@ const Proyects = () => {
               >
                 See the repository on Github here
               </a>
+              <br />
+              <a
+                target="_blank"
+                href="https://rickandmortyapi.com/"
+                rel="noopener noreferrer"
+              >
+                See the API documentation
+              </a>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
