@@ -4,15 +4,20 @@ import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 
 import sinwa from "../img/sinwa.png";
+
 import ticovid from "../img/ticovid.png";
 import ticovidmobile from "../img/ticovidmobile.png";
+
+import rickandmorty from "../img/rickandmorty.png";
 
 import magic from "../img/magic.png";
 import magic2 from "../img/magic2.png";
 
 import LC_logo from "../img/LimonCoral.png";
 import LC_mockup from "../img/lc_mockup.png";
+
 import TRCR_logo from "../img/tuanisridescr.png";
+
 import nr from "../img/nr.png";
 
 import mt from "../img/mattepaiting.jpg";
@@ -25,12 +30,12 @@ const Proyects = () => {
     <div className="proyect container pt-5">
       <h1>Portfolio</h1>
 
-      <ul className="d-flex">
+      {/* <ul className="d-flex">
         <li className="tabs px-2 active">All</li>
         <li className="tabs px-2">Branding</li>
         <li className="tabs px-2">Illustrations</li>
         <li className="tabs px-2">Mobile & Web</li>
-      </ul>
+      </ul> */}
 
       <CardColumns>
         <Card bg="dark">
@@ -145,6 +150,13 @@ const Proyects = () => {
                 data-width="24"
                 data-height="24"
               ></span>
+              <span
+                class="iconify"
+                data-icon="cib:github"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
             </small>
           </Card.Footer>
         </Card>
@@ -162,6 +174,26 @@ const Proyects = () => {
               <span
                 class="iconify mx-1"
                 data-icon="simple-icons:adobephotoshop"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+            </small>
+          </Card.Footer>
+        </Card>
+        <Card bg="dark">
+          <Card.Img variant="top" src={nr} />
+          <Card.Body>
+            <Card.Title>Night Runner</Card.Title>
+            <Card.Text>
+              Textured lettering using vector shapes, glitter and shadows
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">
+              <span
+                class="iconify mx-1"
+                data-icon="simple-icons:adobeillustrator"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
@@ -234,16 +266,34 @@ const Proyects = () => {
           </Card.Footer>
         </Card>
         <Card bg="dark">
-          <Card.Img variant="top" src={nr} />
+          <Card.Img variant="top" src={rickandmorty} />
           <Card.Body>
-            <Card.Title>Night Runner</Card.Title>
-            <Card.Text>Textured lettering</Card.Text>
+            <Card.Title>Rick & Morty APP</Card.Title>
+            <Card.Text>
+              Consume Rest API from the show Nick & Morty, it displays
+              characters, planets and episodes with various information
+              <br />
+              <a
+                target="_blank"
+                href="https://github.com/yohel715/Rick-MortyAPI"
+                rel="noopener noreferrer"
+              >
+                See the repository on Github here
+              </a>
+            </Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
-                data-icon="simple-icons:adobeillustrator"
+                class="iconify"
+                data-icon="mdi:android-studio"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <span
+                class="iconify"
+                data-icon="cib:java"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
@@ -256,8 +306,8 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Limon Coral Logo</Card.Title>
             <Card.Text>
-              Identifier for corum "Limón Coral", a corum from the Universidad
-              de Costa Rica, Sede del Atlántico in Limón, Costa Rica.
+              Identifier for corum "Limón Coral", from the Universidad de Costa
+              Rica, Sede del Atlántico in Limón, Costa Rica.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -354,6 +404,72 @@ const Proyects = () => {
               <span
                 class="iconify mx-1"
                 data-icon="simple-icons:adobephotoshop"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+            </small>
+          </Card.Footer>
+        </Card>
+        <Card bg="dark">
+          <Card.Body>
+            <Card.Title>
+              <h1 class="text-center">THIS PORTOFOLIO</h1>
+            </Card.Title>
+            <Card.Text>
+              Developed in React using React-Boostratp components with icons
+              from Iconify, incluiding the lenguaje SASS in styling and NPM
+              <br />{" "}
+              <a
+                target="_blank"
+                href="https://react-bootstrap.github.io/"
+                rel="noopener noreferrer"
+              >
+                See the react-boostratp documentation here
+              </a>
+              <br />
+              <a
+                target="_blank"
+                href="https://github.com/yohel715/portafolio"
+                rel="noopener noreferrer"
+              >
+                See the repository on Github here
+              </a>
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">
+              <span
+                class="iconify mx-1"
+                data-icon="simple-icons:react"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <span
+                class="iconify mx-1"
+                data-icon="cib:bootstrap"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <span
+                class="iconify mx-1"
+                data-icon="cib:sass"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <span
+                class="iconify mx-1"
+                data-icon="akar-icons:figma-fill"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
+              <span
+                class="iconify mx-1"
+                data-icon="cib:github"
                 data-inline="false"
                 data-width="24"
                 data-height="24"

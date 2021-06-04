@@ -54,7 +54,7 @@ a {
   font-weight: $font-light;
   color: white;
   &:hover {
-    color:$lightblue;
+    color: $lightblue;
     text-decoration: none;
   }
 }
@@ -149,11 +149,11 @@ li {
     width: 95%;
   }
 
-  .landing_content{
+  .landing_content {
     padding-top: 5rem !important;
   }
 
-  .curriculum{
+  .curriculum {
     padding-top: 2rem;
     display: flex;
     justify-content: center;
@@ -221,7 +221,7 @@ li {
     width: max-content;
     background-color: $black !important;
   }
-  
+
   .container {
     width: 97%;
   }
