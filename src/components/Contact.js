@@ -5,15 +5,16 @@ import Button from "react-bootstrap/Button";
 import logo from "../img/SVG/logo.svg";
 
 const Contanct = () => {
-  function sendEmail(e) {
+  
+  function sendEmail(e) { //EmailJS envía el formularioo
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_7sdf16h",
-        "template_14r718o",
+        "service_7sdf16h", //service_id
+        "template_14r718o", //template_id
         e.target,
-        "user_IA86SbDUjhLZNfcLSCt8p"
+        "user_IA86SbDUjhLZNfcLSCt8p" //user_id
       )
       .then(
         (result) => {
@@ -25,7 +26,7 @@ const Contanct = () => {
       );
     e.target.reset();
   }
-
+  
   return (
     <div className="container pt-5">
       <h1>Contact Me</h1>
@@ -35,8 +36,8 @@ const Contanct = () => {
         <div className="col-sm-7">
           <h2>Text me</h2>
 
-          {/* onSubmit={sendEmail} */}
-          <Form className="contact-form">
+          
+          <Form className="contact-form" onSubmit={sendEmail}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter your email" name="email"/>
@@ -64,7 +65,7 @@ const Contanct = () => {
                 name="message"
               />
             </Form.Group>
-            <Button variant="outline-primary  px-5 mb-4" type="submit" disabled={false}> 
+            <Button variant="outline-primary  px-5 mb-4" type="submit" disabled> 
               Send
             </Button>
           </Form>

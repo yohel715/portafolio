@@ -20,14 +20,14 @@ const About = () => {
                 <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
-                    I’m from Costa Rica; I was born on july 15th in the 2000 in
-                    Puntarenas. Since childhood I've been living in Orotina an
-                    Alajuela’s districts.
+                    I’m from Costa Rica;I was born on July 15th, 2000 in
+                    Puntarenas. I was raised and have lived in Orotina, a
+                    district of Alajuela, since childhood.
                     <br />
                     <br />
                     When I was a child I developed an incredible love for
-                    technologíes and sciences, that passion led me to grow as
-                    a developer and designer.{" "}
+                    technology and science, this passed fueled me to become a
+                    developer and designer.{" "}
                   </p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const About = () => {
             <div className="card-group about_card">
               <div class="card text-white bg-transparent mb-3">
                 <div class="pt-3 mx-5">
-                  <h1 className="pt-3">About my knowledge</h1>
+                  <h1 className="mx-3" >About my knowledge</h1>
                 </div>
               </div>
 
@@ -46,13 +46,13 @@ const About = () => {
                 <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
-                    In 2017 I completed my studies in bachillor at a bilingual
-                    high school. Back then I started to create graphic design
-                    material empirically learning from videos on internet.
+                    I graduated from a bilingual high school in 2017. From that
+                    point on, I began my studies into graphic design.
                     <br />
                     <br />
-                    Since 2018 I’ve been studying Informática y Tecnología
-                    Multimedia major at the Univerdad de Costa Rica.{" "}
+                    Soon after and since 2018, I have been completing my
+                    Bachelors Degree in Informátca y Tecnología Multimedia from
+                    the Universidad de Costa Rica.{" "}
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const About = () => {
             <div className="card-group about_card">
               <div class="card text-white bg-transparent mb-3">
                 <div class="pt-3 mx-5">
-                  <h1 className="pt-3">About my hobbies & passions</h1>
+                  <h1 className="mx-3">About my hobbies & passions</h1>
                 </div>
               </div>
 
@@ -71,14 +71,12 @@ const About = () => {
                 <div class="about_card_text pt-3 mx-5">
                   <p class="card-text">
                     {" "}
-                    When I was very young the challenges attracted my attention,
-                    mainly those that test the ingenuity; Since then I play with
-                    rubic cubes and puzzles.
+                    From childhood, I enjoy challenges that test my ingenuity. I
+                    thus love runic cubes and puzzles.
                     <br />
-                    <br />
-                    I consider myself as a genuine passionate about
-                    solving situations through attractive designs and I’m
-                    constantly looking to learn new things everyday.{" "}
+                    <br />I am genuinely passionate about problem solving,
+                    creating attractive designs and always learning new things
+                    everyday.{" "}
                   </p>
                 </div>
               </div>
