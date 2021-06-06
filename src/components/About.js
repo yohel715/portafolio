@@ -38,7 +38,7 @@ const About = () => {
             <div className="card-group about_card">
               <div class="card text-white bg-transparent mb-3">
                 <div class="pt-3 mx-5">
-                  <h1 className="mx-3" >About my knowledge</h1>
+                  <h1 className="mx-2" >About my knowledge</h1>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ const About = () => {
             <div className="card-group about_card">
               <div class="card text-white bg-transparent mb-3">
                 <div class="pt-3 mx-5">
-                  <h1 className="mx-3">About my hobbies & passions</h1>
+                  <h1 className="mx-2">About my hobbies & passions</h1>
                 </div>
               </div>
 

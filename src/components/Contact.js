@@ -65,7 +65,7 @@ const Contanct = () => {
                 name="message"
               />
             </Form.Group>
-            <Button variant="outline-primary  px-5 mb-4" type="submit" disabled> 
+            <Button variant="outline-primary  px-5 mb-4" type="submit"> 
               Send
             </Button>
           </Form>
