@@ -11,7 +11,7 @@ import Contact from "./Contact";
 class App extends React.Component {
   render = () => {
     return (
-      <div class="app">
+      <div className="app">
         <NavBar />
         <section id="landing" className="landing">
           <Landing />

@@ -138,6 +138,10 @@ li {
   color: #fd7871;
 }
 
+.button:disabled {
+  opacity: 0.5;
+}
+
 .caption {
   font-size: 10px !important;
 }

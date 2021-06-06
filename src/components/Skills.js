@@ -20,7 +20,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:html5"
                 data-inline="false"
                 data-width="24"
@@ -31,7 +31,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="ion:logo-css3"
                 data-inline="false"
                 data-width="24"
@@ -42,7 +42,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:javascript"
                 data-inline="false"
                 data-width="24"
@@ -53,7 +53,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:php"
                 data-inline="false"
                 data-width="24"
@@ -64,7 +64,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="mdi:android-studio"
                 data-inline="false"
                 data-width="24"
@@ -75,7 +75,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:react"
                 data-inline="false"
                 data-width="24"
@@ -86,7 +86,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:bootstrap"
                 data-inline="false"
                 data-width="24"
@@ -97,7 +97,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:sass"
                 data-inline="false"
                 data-width="24"
@@ -108,7 +108,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:laravel"
                 data-inline="false"
                 data-width="24"
@@ -119,7 +119,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:expo"
                 data-inline="false"
                 data-width="24"
@@ -130,7 +130,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:wordpress"
                 data-inline="false"
                 data-width="24"
@@ -141,7 +141,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:drupal"
                 data-inline="false"
                 data-width="24"
@@ -152,7 +152,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:github"
                 data-inline="false"
                 data-width="24"
@@ -163,7 +163,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="file-icons:composer"
                 data-inline="false"
                 data-width="24"
@@ -174,7 +174,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="file-icons:npm"
                 data-inline="false"
                 data-width="24"
@@ -185,7 +185,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="teenyicons:nodejs-solid"
                 data-inline="false"
                 data-width="24"
@@ -213,7 +213,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="akar-icons:figma-fill"
                 data-inline="false"
                 data-width="24"
@@ -224,7 +224,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:adobeillustrator"
                 data-inline="false"
                 data-width="24"
@@ -235,7 +235,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:adobephotoshop"
                 data-inline="false"
                 data-width="24"
@@ -246,7 +246,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:adobeindesign"
                 data-inline="false"
                 data-width="24"
@@ -257,7 +257,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:adobeaftereffects"
                 data-inline="false"
                 data-width="24"
@@ -268,7 +268,7 @@ const Skills = () => {
             {/**/}
             <div className="d-flex px-2">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="simple-icons:adobepremierepro"
                 data-inline="false"
                 data-width="24"

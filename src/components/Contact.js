@@ -74,7 +74,6 @@ class Contanct extends React.Component {
         );
       // clear form
       this.setState(initialState);
-      //event.target.reset();
     }
   };
 
@@ -101,7 +100,7 @@ class Contanct extends React.Component {
                   value={this.state.email}
                   onChange={this.handleChange}
                 />
-                <p class="from_alert d-flex">{this.state.emailError}</p>
+                <p className="from_alert d-flex">{this.state.emailError}</p>
               </Form.Group>
               <Form.Group>
                 <Form.Label>Subject</Form.Label>
@@ -112,7 +111,7 @@ class Contanct extends React.Component {
                   value={this.state.subject}
                   onChange={this.handleChange}
                 />
-                <p class="from_alert d-flex">{this.state.subjectError}</p>
+                <p className="from_alert d-flex">{this.state.subjectError}</p>
               </Form.Group>
               <Form.Group>
                 <Form.Label>What's your name?</Form.Label>
@@ -123,7 +122,7 @@ class Contanct extends React.Component {
                   value={this.state.name}
                   onChange={this.handleChange}
                 />
-                <p class="from_alert d-flex">{this.state.nameError}</p>
+                <p className="from_alert d-flex">{this.state.nameError}</p>
               </Form.Group>
               <Form.Group
                 className="mb-3"
@@ -138,7 +137,7 @@ class Contanct extends React.Component {
                   value={this.state.message}
                   onChange={this.handleChange}
                 />
-                <p class="from_alert d-flex">{this.state.messageError}</p>
+                <p className="from_alert d-flex">{this.state.messageError}</p>
               </Form.Group>
               <Button variant="outline-primary  px-5 mb-4" type="submit">
                 Send
@@ -155,7 +154,7 @@ class Contanct extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span
-                  class="iconify"
+                  className="iconify"
                   data-icon="dashicons:email-alt"
                   data-inline="false"
                   data-width="24"
@@ -170,7 +169,7 @@ class Contanct extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span
-                  class="iconify"
+                  className="iconify"
                   data-icon="akar-icons:linkedin-fill"
                   data-inline="false"
                   data-width="24"
@@ -185,7 +184,7 @@ class Contanct extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span
-                  class="iconify"
+                  className="iconify"
                   data-icon="ant-design:github"
                   data-inline="false"
                   data-width="24"
@@ -200,7 +199,7 @@ class Contanct extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span
-                  class="iconify"
+                  className="iconify"
                   data-icon="ant-design:instagram-filled"
                   data-inline="false"
                   data-width="24"
@@ -210,7 +209,7 @@ class Contanct extends React.Component {
               </a>
               <div className="d-flex py-2">
                 <span
-                  class="iconify"
+                  className="iconify"
                   data-icon="bi:phone-fill"
                   data-inline="false"
                   data-width="24"
@@ -229,13 +228,13 @@ class Contanct extends React.Component {
           <img
             src={logo}
             height="30"
-            class="footer_logo d-inline-block"
+            className="footer_logo d-inline-block"
             alt="logo"
           />
 
           <a href="#landing" className="contact_icon">
             <span
-              class="iconify"
+              className="iconify"
               data-icon="bi:chevron-up"
               data-inline="false"
               data-width="24"

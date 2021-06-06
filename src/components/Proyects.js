@@ -58,28 +58,28 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:figma"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:wordpress"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:php"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="ion:logo-css3"
                 data-inline="false"
                 data-width="24"
@@ -130,28 +130,28 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="akar-icons:figma-fill"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:javascript"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:expo"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:github"
                 data-inline="false"
                 data-width="24"
@@ -172,7 +172,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobephotoshop"
                 data-inline="false"
                 data-width="24"
@@ -192,7 +192,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobeillustrator"
                 data-inline="false"
                 data-width="24"
@@ -222,21 +222,21 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:figma"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="mdi:android-studio"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:java"
                 data-inline="false"
                 data-width="24"
@@ -256,7 +256,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobeillustrator"
                 data-inline="false"
                 data-width="24"
@@ -293,21 +293,21 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="mdi:android-studio"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:java"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:github"
                 data-inline="false"
                 data-width="24"
@@ -328,7 +328,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobeillustrator"
                 data-inline="false"
                 data-width="24"
@@ -358,21 +358,21 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:figma"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="mdi:android-studio"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="cib:java"
                 data-inline="false"
                 data-width="24"
@@ -390,7 +390,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobephotoshop"
                 data-inline="false"
                 data-width="24"
@@ -417,7 +417,7 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:adobephotoshop"
                 data-inline="false"
                 data-width="24"
@@ -429,7 +429,7 @@ const Proyects = () => {
         <Card bg="dark">
           <Card.Body>
             <Card.Title>
-              <h1 class="text-center">THIS PORTOFOLIO</h1>
+              <h1 className="text-center">THIS PORTOFOLIO</h1>
             </Card.Title>
             <Card.Text>
               Developed in React using React-Boostratp components with icons
@@ -455,35 +455,35 @@ const Proyects = () => {
           <Card.Footer>
             <small className="text-muted">
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="simple-icons:react"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:bootstrap"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:sass"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="akar-icons:figma-fill"
                 data-inline="false"
                 data-width="24"
                 data-height="24"
               ></span>
               <span
-                class="iconify mx-1"
+                className="iconify mx-1"
                 data-icon="cib:github"
                 data-inline="false"
                 data-width="24"
