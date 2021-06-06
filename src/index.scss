@@ -125,12 +125,19 @@ li {
 
 .form-control {
   background-color: #343a40 !important;
+  border: 1px solid #4f555a;
   color: white;
 }
 
 .form-control:focus {
   color: white !important;
 }
+
+.from_alert{
+  font-size: 80%;
+  color: #fd7871;
+}
+
 .caption {
   font-size: 10px !important;
 }
