@@ -45,7 +45,7 @@ class Contanct extends React.Component {
       emailError = "email cannot be blank";
     }
 
-    if (!this.state.subject) {
+    if (!this.state.message) {
       messageError = "message cannot be blank";
     }
 
