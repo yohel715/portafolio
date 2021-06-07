@@ -7,11 +7,14 @@ import Skill from "./Skills";
 import Proyect from "./Proyects";
 import Contact from "./Contact";
 
+import ReactNotification from 'react-notifications-component';
+
 
 class App extends React.Component {
   render = () => {
     return (
       <div className="app">
+        <ReactNotification />
         <NavBar />
         <section id="landing" className="landing">
           <Landing />

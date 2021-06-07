@@ -4,6 +4,9 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import logo from "../img/SVG/logo.svg";
 
+import { store } from "react-notifications-component";
+import "react-notifications-component/dist/theme.css";
+
 const initialState = {
   email: "",
   subject: "",
@@ -72,6 +75,22 @@ class Contanct extends React.Component {
             console.log(error.text);
           }
         );
+
+      store.addNotification({
+        title: "Email successfully sent!",
+        message: "Thank you for writing me, I will contact you soon.",
+        type: "success",
+        insert: "top",
+        container: "top-right",
+        animationIn: ["animate__animated", "animate__fadeIn"],
+        animationOut: ["animate__animated", "animate__fadeOut"],
+        dismiss: {
+          duration: 5000,
+          onScreen: true,
+          showIcon: true,
+        },
+      });
+
       // clear form
       this.setState(initialState);
     }
