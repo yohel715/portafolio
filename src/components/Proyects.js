@@ -34,7 +34,7 @@ const Proyects = () => {
         <li className="tabs px-2 active">All</li>
         <li className="tabs px-2">Branding</li>
         <li className="tabs px-2">Illustrations</li>
-        <li className="tabs px-2">Mobile & Web</li>
+        <li className="tabs px-2">Mobile &amp; Web</li>
       </ul> */}
 
       <CardColumns>
@@ -43,8 +43,8 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Sinwa Tours</Card.Title>
             <Card.Text>
-              Currently in development sinwatours.com is a website for the small
-              entrepreneur company called Sinwa Tours located in Monteverde; The
+              In development, sinwatours.com is a website for a small
+              entrepreneur company called Sinwa Tours located in Monteverde: the
               site is being made with WordPress. <br />{" "}
               <a
                 target="_blank"
@@ -100,7 +100,7 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Magic The Gathering</Card.Title>
             <Card.Text>
-              Prototype application, consumes the Magic: the gathering API.{" "}
+              A prototype application which consumes the Magic’s gathering API.{" "}
               <br />
               <a
                 target="_blank"
@@ -166,7 +166,7 @@ const Proyects = () => {
             <Card.Title>Photo montage</Card.Title>
             <Card.Text>
               A fantasy photo montage with bitmaps elements, using the technique
-              mattepaiting.
+              matte painting.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -186,7 +186,7 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Night Runner</Card.Title>
             <Card.Text>
-              Textured lettering using vector shapes, glitter and shadows
+              Textured lettering using vector shapes, glitter, and shadows. 
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -207,7 +207,7 @@ const Proyects = () => {
             <Card.Title>Ticovid APP Wireframes</Card.Title>
             <Card.Text>
               Developed in conjunction with other classmates as a functional
-              application to learn about the sars cov 2 virus situation in Costa
+              application to learn about the SARS-CoV-2 virus situation in Costa
               Rica.
               <br />{" "}
               <a
@@ -268,10 +268,11 @@ const Proyects = () => {
         <Card bg="dark">
           <Card.Img variant="top" src={rickandmorty} />
           <Card.Body>
-            <Card.Title>Rick & Morty APP</Card.Title>
+            <Card.Title>Rick &amp; Morty APP</Card.Title>
             <Card.Text>
-              Consume Rest API from the show Nick & Morty, it displays
-              characters, planets and episodes with various information
+              A prototype application which consumes the show Nick &amp; Morty
+              API. It displays characters, planets, and episodes with various
+              information.
               <br />
               <a
                 target="_blank"
@@ -319,7 +320,7 @@ const Proyects = () => {
         <Card bg="dark">
           <Card.Img variant="top" src={LC_logo} />
           <Card.Body>
-            <Card.Title>Limon Coral Logo</Card.Title>
+            <Card.Title>Limón Coral Logo</Card.Title>
             <Card.Text>
               Identifier for corum "Limón Coral", from the Universidad de Costa
               Rica, Sede del Atlántico in Limón, Costa Rica.
@@ -342,8 +343,8 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Ticovid APP Prototype</Card.Title>
             <Card.Text>
-              Fully functional prototype. <br />
-              Mobile app to know about the sars cov 2 virus situation in Costa
+              A fully functional prototype. <br />
+              Mobile app to know about the SARS-CoV-2 virus situation in Costa
               Rica.
               <br />{" "}
               <a
@@ -411,7 +412,7 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>The dance of the little devils</Card.Title>
             <Card.Text>
-              Photomontage using aboriginal masks from Costa Rica
+              Photomontage using aboriginal masks from Costa Rica.
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -433,7 +434,7 @@ const Proyects = () => {
             </Card.Title>
             <Card.Text>
               Developed in React using React-Boostratp components with icons
-              from Iconify, incluiding the lenguaje SASS in styling and NPM
+              from Iconify, including the language SASS in styling and NPM.
               <br />{" "}
               <a
                 target="_blank"

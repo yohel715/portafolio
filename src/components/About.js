@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about_content pt-5">
       <div className="container">
-        <p>Take a look about me, my hobbies and passions</p>
+        <p>Take a look at me, my hobbies, and passions:</p>
         <Carousel interval={null} className="mx-4">
           <Carousel.Item className="py-2">
             <div className="card-group  about_card">
@@ -20,13 +20,13 @@ const About = () => {
                 <div className="about_card_text pt-3 mx-5">
                   <p className="card-text">
                     {" "}
-                    I’m from Costa Rica;I was born on July 15th, 2000 in
+                    I’m from Costa Rica: I was born on July 15th, 2000, in
                     Puntarenas. I was raised and have lived in Orotina, a
                     district of Alajuela, since childhood.
                     <br />
                     <br />
-                    When I was a child I developed an incredible love for
-                    technology and science, this passed fueled me to become a
+                    When I was a child, I developed an incredible love for
+                    technology and science. This event encouraged me to become a
                     developer and designer.{" "}
                   </p>
                 </div>
@@ -38,7 +38,7 @@ const About = () => {
             <div className="card-group about_card">
               <div className="card text-white bg-transparent mb-3">
                 <div className="pt-3 mx-5">
-                  <h1 className="mx-2" >About my knowledge</h1>
+                  <h1 className="mx-2">About my knowledge</h1>
                 </div>
               </div>
 
@@ -46,13 +46,12 @@ const About = () => {
                 <div className="about_card_text pt-3 mx-5">
                   <p className="card-text">
                     {" "}
-                    I graduated from a bilingual high school in 2017. From that
-                    point on, I began my studies into graphic design.
+                    I am a postgraduate from a bilingual high school. Later on,
+                    I started my higher education in graphic design.
                     <br />
                     <br />
-                    Soon after and since 2018, I have been completing my
-                    Bachelors Degree in Informátca y Tecnología Multimedia from
-                    the Universidad de Costa Rica.{" "}
+                    Since 2018, I have been majoring in Informática y Tecnología
+                    Multimedia in the University of Costa Rica (UCR).{" "}
                   </p>
                 </div>
               </div>
@@ -63,7 +62,7 @@ const About = () => {
             <div className="card-group about_card">
               <div className="card text-white bg-transparent mb-3">
                 <div className="pt-3 mx-5">
-                  <h1 className="mx-2">About my hobbies & passions</h1>
+                  <h1 className="mx-2">About my hobbies &amp; passions</h1>
                 </div>
               </div>
 
@@ -71,12 +70,13 @@ const About = () => {
                 <div className="about_card_text pt-3 mx-5">
                   <p className="card-text">
                     {" "}
-                    From childhood, I enjoy challenges that test my ingenuity. I
-                    thus love runic cubes and puzzles.
+                    Since childhood, I have enjoyed challenges that test my
+                    ingenuity; in fact, I love Rubik’s Cubes and puzzles
+                    overall.
                     <br />
-                    <br />I am genuinely passionate about problem solving,
-                    creating attractive designs and always learning new things
-                    everyday.{" "}
+                    <br />I am genuinely passionate about problem-solving,
+                    creating attractive designs, and always learning new things
+                    every day.{" "}
                   </p>
                 </div>
               </div>

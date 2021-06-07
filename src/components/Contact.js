@@ -1,11 +1,12 @@
 import React from "react";
-import emailjs from "emailjs-com";
+
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import logo from "../img/SVG/logo.svg";
 
-import { store } from "react-notifications-component";
-import "react-notifications-component/dist/theme.css";
+import emailjs from "emailjs-com"; //emailjs-component
+import { store } from "react-notifications-component"; //react-notifications-component
+import "react-notifications-component/dist/theme.css"; //react-notifications-component
 
 const initialState = {
   email: "",
@@ -60,8 +61,7 @@ class Contanct extends React.Component {
     event.preventDefault();
     const isValid = this.validate();
     if (isValid) {
-      emailjs
-        .sendForm(
+      emailjs.sendForm( //emailjs
           "service_7sdf16h", //service_id
           "template_14r718o", //template_id
           event.target,
@@ -76,7 +76,7 @@ class Contanct extends React.Component {
           }
         );
 
-      store.addNotification({
+      store.addNotification({ //react-notifications-component
         title: "Email successfully sent!",
         message: "Thank you for writing me, I will contact you soon.",
         type: "success",
@@ -109,9 +109,6 @@ class Contanct extends React.Component {
             <Form className="contact-form" onSubmit={this.handleSubmit}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Text className="text-muted">
-                  I'll never share your email with anyone else.
-                </Form.Text>
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
@@ -119,6 +116,9 @@ class Contanct extends React.Component {
                   value={this.state.email}
                   onChange={this.handleChange}
                 />
+                <Form.Text className="text-muted">
+                  I'll never share your email with anyone else.
+                </Form.Text>
                 <p className="from_alert d-flex">{this.state.emailError}</p>
               </Form.Group>
               <Form.Group>

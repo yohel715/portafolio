@@ -7,14 +7,14 @@ const Skills = () => {
         <div className="col-sm-6">
           <h1 className="text-center mx-5">Software Development</h1>
           <p>
-            Management of different programming languages ​​such as Java,
-            Javascript, PHP. In addition to uses of different
-            frameworks such as Android Studio, React, Laravel, Bootstrap and SASS. And the
+            Management of different programming languages such as Java,
+            Javascript, PHP. In addition, the use of different frameworks such
+            as Android Studio, React, Laravel, Bootstrap, and SASS. And the
             platform Expo for making universal native apps for Android, iOS.
             <br /> <br />
-            Besides the uses of CMS including WordPress and Drupal; Tools for
+            Besides, the uses of CMS including WordPress and Drupal tools for
             control version with GitHub and dependency manager such as Composer,
-            NPM and Node.js
+            NPM, and Node.js.
           </p>
           <div className="d-flex flex-wrap mx-1">
             {/**/}
@@ -197,17 +197,16 @@ const Skills = () => {
         </div>
 
         <div className="col-sm-6">
-          <h1 className="text-center mx-5">Design & Multimedia</h1>
+          <h1 className="text-center mx-5">Design &amp; Multimedia</h1>
           <p>
             Elaboration and vector elements, various components of motion
             graphics, as well as making of visual material and wireframes for
             web development and prototyping.
             <br />
             <br />
-            In addition constructions of visual identity as branding with
-            elements such as logos, business cards,
-            thematic flyers and mockups. Mainly focused in the
-            elaborations of brands guidelines.
+            In addition, constructions of visual identity as branding with
+            elements such as logos, business cards, thematic flyers, and
+            mockups. Mainly focused on the elaborations of brand guidelines.
           </p>
           <div className="d-flex flex-wrap mx-1">
             {/**/}

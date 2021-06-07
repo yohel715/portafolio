@@ -11,7 +11,7 @@ const Landing = () => {
             <h2 className="getting_up">Hi! I’m</h2>
             <h1 className="title">Yohel Ureña Mora</h1>
             <h2 className="getting_down">
-              Developer, UX, UI Designer <br /> & Graphic Designer
+              Developer, UX, UI Designer <br /> &amp; Graphic Designer
             </h2>
           </div>
           <div className="col-sm-6 pt-2">
