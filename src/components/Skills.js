@@ -81,6 +81,17 @@ const Skills = () => {
                 data-width="24"
                 data-height="24"
               ></span>
+              <p className="font-weight-bold ml-1">React</p>
+            </div>
+            {/**/}
+            <div className="d-flex px-2">
+              <span
+                className="iconify"
+                data-icon="simple-icons:react"
+                data-inline="false"
+                data-width="24"
+                data-height="24"
+              ></span>
               <p className="font-weight-bold ml-1">React Native</p>
             </div>
             {/**/}
