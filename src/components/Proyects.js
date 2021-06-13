@@ -43,7 +43,7 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Sinwa Tours</Card.Title>
             <Card.Text>
-              In development, sinwatours.com is a website for a small
+              In development in conjunction with other classmate, sinwatours.com is a website for a small
               entrepreneur company called Sinwa Tours located in Monteverde: the
               site is being made with WordPress. <br />{" "}
               <a
@@ -324,6 +324,7 @@ const Proyects = () => {
             <Card.Text>
               Identifier for corum "Limón Coral", from the Universidad de Costa
               Rica, Sede del Atlántico in Limón, Costa Rica.
+              Developed in conjunction with other classmates
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -343,7 +344,7 @@ const Proyects = () => {
           <Card.Body>
             <Card.Title>Ticovid APP Prototype</Card.Title>
             <Card.Text>
-              A fully functional prototype. <br />
+              A fully functional prototype, developed in conjunction with other classmates. <br />
               Mobile app to know about the SARS-CoV-2 virus situation in Costa
               Rica.
               <br />{" "}

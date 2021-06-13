@@ -21,7 +21,7 @@ const Landing = () => {
           </div>
         </div>
         <div className="curriculum pt-2">
-          <Button className="curriculum" variant="outline-primary" type="link" target="_blank" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:850fab67-e71a-4a67-88f9-5f49429f6d9c">
+          <Button className="curriculum" variant="outline-primary" type="link" target="_blank" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:fe765bb7-5d60-42ad-9bb2-a10ce4b76062">
             Check my curriculum
           </Button>
         </div>
