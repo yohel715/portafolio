@@ -184,7 +184,7 @@ class Contanct extends React.Component {
               <a
                 className="d-flex py-2"
                 target="_blank"
-                href="https://www.linkedin.com/in/yohel-ure%C3%B1a-mora-b8011b191/"
+                href="https://www.linkedin.com/in/yohelurenamora/"
                 rel="noopener noreferrer"
               >
                 <span
