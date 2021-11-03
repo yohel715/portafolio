@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about_card_text pt-3 mx-5">
                   <p className="card-text">
                     {" "}
-                    I’m from Costa Rica: I was born on July 15th, 2000, in
+                    I’m from Costa Rica. On July 15th, 2000, I was born in
                     Puntarenas. I was raised and have lived in Orotina, a
                     district of Alajuela, since childhood.
                     <br />
